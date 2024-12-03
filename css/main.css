@@ -1,0 +1,112 @@
+.comic-neue-light {
+    font-family: "Comic Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.comic-neue-regular {
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-neue-bold {
+    font-family: "Comic Neue", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Header */
+
+/*.logo {
+    width: 245.17px;
+    height: 36px;
+    top: 26px;
+    left: 349px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.logo span {
+    width: 147px;
+    height: 36px;
+    top: 26px;
+    left: 447.17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Golos Text;
+    font-size: 16.65px;
+    font-weight: 700;
+    line-height: 17.98px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.logo img {
+    width: 21.65px;
+    height: 31.18px;
+    top: 28.31px;
+    left: 419.16px;
+    gap: 0px;
+    opacity: 0px;
+} */
+
+
+/* header {
+    background: #E9DED4;
+}
+
+.logo {
+    position: absolute;
+    width: 245.17px;
+    height: 36px;
+    left: 349px;
+    top: 26px;
+}
+
+.vector1 {
+    left: 18.18%;
+    right: 80.7%;
+    top: 4.04%;
+    bottom: 91.5%;
+}
+
+.vector2 {
+    left: 19.4%;
+    right: 79.48%;
+    top: 4.04%;
+    bottom: 91.5%;
+}
+
+.vector3 {
+    left: 20.61%;
+    right: 78.26%;
+    top: 4.04%;
+    bottom: 91.5%;
+}
+
+.vector {
+    left: 21.83%;
+    right: 77.04%;
+    top: 4.04%;
+    bottom: 91.5%;
+}
+
+.logo span {
+    position: absolute;
+    width: 147px;
+    height: 36px;
+    left: 447.17px;
+    top: 26px;
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.6513px;
+    line-height: 108%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #595653;
+} */
+
