@@ -18,95 +18,129 @@
 
 /* Header */
 
-/*.logo {
-    width: 245.17px;
-    height: 36px;
-    top: 26px;
-    left: 349px;
-    gap: 0px;
-    opacity: 0px;
+.header {
+    background-image: url(../img/body/stained-19.png);
 }
 
-.logo span {
-    width: 147px;
-    height: 36px;
-    top: 26px;
-    left: 447.17px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Golos Text;
-    font-size: 16.65px;
-    font-weight: 700;
-    line-height: 17.98px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+.sun {
+    width: 660px;
+    height: 660px;
+    left: 951px;
+    top: -44px;
+    position: absolute;
+    background: #FBCE51;
+    border-radius: 9999px;
 }
 
-.logo img {
-    width: 21.65px;
-    height: 31.18px;
-    top: 28.31px;
-    left: 419.16px;
-    gap: 0px;
-    opacity: 0px;
-} */
+.text-sun {
+    width: 634px;
+    height: 634px;
+    left: 1056.85px;
+    top: -102.24px;
+    position: absolute;
+    transform: rotate(15deg);
+    transform-origin: 0 0;
+    mix-blend-mode: overlay;
+}
 
+.queen {
+    width: 113.16px;
+    height: 252.44px;
+    left: 1372.79px;
+    top: 165.29px;
+    position: absolute;
+    transform: rotate(7.59deg);
+    transform-origin: 0 0;
+}
 
-/* header {
-    background: #E9DED4;
+.king {
+    width: 103.78px;
+    height: 255.89px;
+    left: 1007.18px;
+    top: 281.19px;
+    position: absolute;
+    transform: rotate(-5.99deg);
+    transform-origin: 0 0;
+}
+
+.city {
+    width: 1623.50px;
+    height: 452.50px;
+    left: 161.50px;
+    top: 270px;
+    position: absolute;
+}
+
+.shadow {
+    width: 1603.71px;
+    height: 463.82px;
+    left: 158px;
+    top: 259px;
+    position: absolute;
+}
+
+.shadow-repetition {
+    width: 1920px;
+    height: 881px;
+    left: 0px;
+    top: -123px;
+    position: absolute;
+    mix-blend-mode: color-burn;
+}
+
+.board {
+    position: absolute;
+    width: 1603.71px;
+    height: 463.82px;
+    left: 158px;
+    top: 259px;
+}
+
+.horse {
+    width: 153.87px;
+    height: 243.99px;
+    left: 1113.64px;
+    top: 510.85px;
+    position: absolute;
+    transform: rotate(-10.59deg);
+    transform-origin: 0 0;
+}
+
+.pawn {
+    width: 82.61px;
+    height: 122.22px;
+    left: 1516.83px;
+    top: 558.20px;
+    position: absolute;
 }
 
 .logo {
-    position: absolute;
     width: 245.17px;
     height: 36px;
     left: 349px;
     top: 26px;
-}
-
-.vector1 {
-    left: 18.18%;
-    right: 80.7%;
-    top: 4.04%;
-    bottom: 91.5%;
-}
-
-.vector2 {
-    left: 19.4%;
-    right: 79.48%;
-    top: 4.04%;
-    bottom: 91.5%;
-}
-
-.vector3 {
-    left: 20.61%;
-    right: 78.26%;
-    top: 4.04%;
-    bottom: 91.5%;
-}
-
-.vector {
-    left: 21.83%;
-    right: 77.04%;
-    top: 4.04%;
-    bottom: 91.5%;
-}
-
-.logo span {
     position: absolute;
-    width: 147px;
-    height: 36px;
-    left: 447.17px;
-    top: 26px;
-    font-family: 'Golos Text';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16.6513px;
-    line-height: 108%;
-    text-transform: uppercase;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #595653;
-} */
+}
 
+.logo-img {
+    width: 88,6px; 
+    height: 31.18px;
+    top: 2.31px;
+    /* left? */
+}
+
+.logo-text {
+    left: 98.17px;
+    top: 0px;
+}
+
+.logo-text span {
+    color: #595653;
+    font-size: 16.65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 17.98px;
+    word-wrap: break-word;
+    letter-spacing: 0.17px;
+    word-wrap: break-word
+}

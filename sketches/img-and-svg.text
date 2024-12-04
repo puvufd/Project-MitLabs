@@ -7,7 +7,8 @@ queen
 king
 city
 shadow
-shadow (изменённое повторение)
+shadow-repetition Vector 3
+    
 board
 horse
 pawn
