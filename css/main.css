@@ -18,8 +18,11 @@
 
 /* Header */
 
-.header {
-    background-image: url(../img/body/stained-19.png);
+.head {
+    width: 1920px;
+    height: 700px;
+    position: relative;
+    background-color: #E9DED4;
 }
 
 .sun {
@@ -143,4 +146,132 @@
     word-wrap: break-word;
     letter-spacing: 0.17px;
     word-wrap: break-word
+}
+
+.content {
+    width: 542px;
+    height: 444px;
+    left: 348.50px;
+    top: 124px;
+    position: absolute;
+}
+
+.headline {
+    width: 542px;
+    height: 264px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.headline-span-1 {
+    width: 542px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #313131;
+    font-size: 60px;
+    font-family: Merriweather;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 66px;
+    word-wrap: break-word;
+}
+
+.headline-span-2 {
+    left: 91px;
+    top: 132px;
+    position: absolute;
+    text-align: right;
+    color: #313131;
+    font-size: 60px;
+    font-family: Merriweather;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 66px;
+    word-wrap: break-word;
+}
+
+.headline-span-3 {
+    width: 542px;
+    left: 0px;
+    top: 198px;
+    position: absolute;
+    text-align: right;
+    color: #313131;
+    font-size: 60px;
+    font-family: Merriweather;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 66px;
+    word-wrap: break-word;
+}
+
+.btns {
+    width: 542px;
+    left: 0px;
+    top: 374px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+}
+
+.button-1 {
+    flex: 1 1 0;
+    padding: 20px;
+    background: #1F1F1F;
+    border-radius: 66px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.button-1 span {
+    width: 165px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Golos Text;
+    font-weight: 500;
+    line-height: 20.80px;
+    word-wrap: break-word;
+}
+
+.button-2 {
+    flex: 1 1 0;
+    padding: 20px;
+    border-radius: 66px;
+    border: 2px #1F1F1F solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.button-2 span {
+    width: 165px;
+    text-align: center;
+    color: #1F1F1F;
+    font-size: 16px;
+    font-family: Golos Text;
+    font-weight: 500;
+    line-height: 20.80px;
+    word-wrap: break-word;
+}
+
+.title-description {
+    width: 542px;
+    left: 0px;
+    top: 288px;
+    position: absolute;
+    text-align: center;
+    color: #313131;
+    font-size: 18px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 23.40px;
+    word-wrap: break-word;
 }

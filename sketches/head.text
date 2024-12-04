@@ -1,0 +1,20 @@
+<div style="width: 1920px; height: 700px; position: relative; background: #E9DED4">
+        <div class="Group-img">
+            <img class="sun" src="./img/sun.png" alt="Chess">
+            <img class="text-sun" src="./img/text-sun.png" alt="Chess">
+            <img class="queen" src="./img/head/queen.png" alt="Chess">
+            <img class="king" src="./img/head/king.png" alt="Chess">
+            <img class="city" src="./img/head/city.png" alt="Chess">
+            <img class="shadow" src="./img/head/shadow.png" alt="Chess">
+            <img class="shadow-repetition" src="./img/head/shadow.png" alt="Chess">
+            <img class="vector-3" src="./img/head/vector-3.png" alt="Chess">
+            <div class="board"></div>
+            <img class="horse" src="./img/head/horse.png" alt="Chess">
+            <img class="pawn" src="./img/head/pawn.png" alt="Chess">
+            <div class="logo">
+                <img class="logo-img" src="./img/head/logo.png" alt="Logo">
+                <div class="logo-text">
+                    <span> Клуб четырех коней</span>
+                </div>
+            </div>
+        </div>
