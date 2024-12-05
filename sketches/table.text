@@ -1,0 +1,339 @@
+/* table */
+
+position: absolute;
+width: 704px;
+height: 248px;
+left: 590px;
+top: 1361px;
+
+
+
+/* Group 21 */
+
+position: absolute;
+width: 704px;
+height: 248px;
+left: 590px;
+top: 1361px;
+
+
+
+/* Group 24 */
+
+position: absolute;
+width: 704px;
+height: 168px;
+left: 590px;
+top: 1401px;
+
+
+
+/* Vector 12 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: 590px;
+top: 1401px;
+
+border: 2px solid #D0D0D0;
+
+
+/* Vector 14 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: 590px;
+top: 1457px;
+
+border: 2px solid #D0D0D0;
+
+
+/* Vector 16 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: 590px;
+top: 1513px;
+
+border: 2px solid #D0D0D0;
+
+
+/* Vector 17 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: 590px;
+top: 1569px;
+
+border: 2px solid #D0D0D0;
+
+
+/* Vector 15 */
+
+position: absolute;
+width: 0px;
+height: 248px;
+left: 896px;
+top: 1361px;
+
+border: 2px solid #D0D0D0;
+
+
+/* Vector 99 */
+
+position: absolute;
+width: 81px;
+height: 0px;
+left: 910.5px;
+top: 1599.5px;
+
+border: 2px solid #F54932;
+
+
+/* Group 22 */
+
+position: absolute;
+width: 382px;
+height: 248px;
+left: 912px;
+top: 1361px;
+
+
+
+/* Клуб «Картонажник» */
+
+position: absolute;
+width: 382px;
+height: 24px;
+left: 912px;
+top: 1361px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+
+
+/* 22 июня 1927 г. в 18:00 */
+
+position: absolute;
+width: 268px;
+height: 24px;
+left: 912px;
+top: 1417px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+
+
+/* 20 коп. */
+
+position: absolute;
+width: 268px;
+height: 24px;
+left: 912px;
+top: 1473px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+
+
+/* 50 коп. */
+
+position: absolute;
+width: 268px;
+height: 24px;
+left: 912px;
+top: 1529px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+
+
+/* 21 руб. 16 коп. */
+
+position: absolute;
+width: 143px;
+height: 24px;
+left: 1006px;
+top: 1585px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+
+
+/* 100 руб. */
+
+position: absolute;
+width: 82px;
+height: 24px;
+left: 912px;
+top: 1585px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+
+
+/* Group 23 */
+
+position: absolute;
+width: 290px;
+height: 248px;
+left: 590px;
+top: 1361px;
+
+
+
+/* Место проведения: */
+
+position: absolute;
+width: 290px;
+height: 24px;
+left: 590px;
+top: 1361px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+opacity: 0.7;
+
+
+/* Дата и время мероприятия: */
+
+position: absolute;
+width: 290px;
+height: 24px;
+left: 590px;
+top: 1417px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+opacity: 0.7;
+
+
+/* Стоимость входных билетов: */
+
+position: absolute;
+width: 290px;
+height: 24px;
+left: 590px;
+top: 1473px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+opacity: 0.7;
+
+
+/* Плата за игру: */
+
+position: absolute;
+width: 290px;
+height: 24px;
+left: 590px;
+top: 1529px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+opacity: 0.7;
+
+
+/* Взнос на телеграммы: */
+
+position: absolute;
+width: 290px;
+height: 24px;
+left: 590px;
+top: 1585px;
+
+font-family: 'Golos Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #313131;
+
+opacity: 0.7;

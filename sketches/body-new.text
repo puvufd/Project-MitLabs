@@ -5,23 +5,23 @@
         </div>
         <div class="header-content-2">
             <span class="merriweather-regular"> и Сеанс </span>
-            <span class="red-text .merriweather-bold"> одновременной игры в шахматы на 160 досках </span>
+            <span class="red-text merriweather-bold"> одновременной игры в шахматы на 160 досках </span>
             <span class="merriweather-regular"> гроссмейстера О. Бендера </span>
         </div>
         <div class="table">
-            <div class="table-title">
+            <div class="table-titles golos-text-little">
                 <span class="table-title-1"> Место проведения: </span>
                 <span class="table-title-2"> Дата и время мероприятия: </span>
                 <span class="table-title-3"> Стоимость входных билетов: </span>
                 <span class="table-title-4"> Плата за игру: </span>
                 <span class="table-title-5"> Взнос на телеграммы: </span>
             </div>
-            <div class="table-description">
+            <div class="table-descriptions golos-text-little-bold">
                 <span class="table-description-1"> Клуб «Картонажник» </span>
                 <span class="table-description-2"> 22 июня 1927 г. в 18:00 </span>
                 <span class="table-description-3"> 20 коп. </span>
                 <span class="table-description-4"> 50 коп. </span>
-                <span class="table-description-5"> 100 руб. </span>
+                <span class="last-table-description-5"> 100 руб. </span>
                 <span class="table-description-5"> 21 руб. 16 коп. </span>
             </div>
             <div class="table-vectors">
@@ -53,9 +53,9 @@
                 </svg>
             </div>
         </div>
-        <span class="note-content-2"> По всем вопросам обращаться в администрацию к К. Михельсону </span>
+        <span class="note-content-2 golos-text-little"> По всем вопросам обращаться в администрацию к К. Михельсону </span>
     </div>
-
+    
     <div class="content-3">
         <span class="header-content-3 merriweather-regular"> Этапы преображения Васюков </span>
         <span class="subtitle-content-3"> Будущие источники обогащения васюкинцев </span>

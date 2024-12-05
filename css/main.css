@@ -280,7 +280,7 @@ html {
     height: 2412px;
 }
 
-/* Content 1 and 2 */
+/* Content 1 */
 
 .content-1 {
     width: 1222px;
@@ -290,14 +290,6 @@ html {
     position: absolute;
 }
 
-.content-2 {
-    position: absolute;
-    width: 1222px;
-    height: 527px;
-    left: 72px;
-    top: 1154px;
-}
-
 .content-1 div {
     width: 764px;
     height: 195.43px;
@@ -305,67 +297,11 @@ html {
     top: 26.92px;
 }
 
-.header-content-2 {
-    width: 704px;
-    left: 590px;
-    top: 1154px;
-    position: absolute;
-}
-
-.content-1 span, .header-content-2 span {
+.content-1 span {
     font-size: 36px;
     text-transform: uppercase;
     line-height: 48.60px;
     word-wrap: break-word;
-}
-
-.table {
-    width: 290px;
-    position: absolute;
-    opacity: 0.70;
-    font-size: 20px;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-.table-title {
-    left: 590px;
-}
-
-.table-description {
-    left: 912px;
-    font-weight: 600;
-}
-
-.table-title-1, .table-description-1 {
-    top: 1361px;
-}
-
-.table-title-2, .table-description-2 {
-    top: 1417px;
-}
-
-.table-title-3, .table-description-3 {
-    top: 1473px;
-}
-
-.table-title-4, .table-description-4 {
-    top: 1529px;
-}
-
-.table-title-5, .table-description-5 {
-    top: 1585px;
-}
-
-.note-content-2 {
-    width: 704px;
-    left: 590px;
-    top: 1657px;
-    position: absolute;
-    color: #3057A2;
-    font-size: 20px;
-    line-height: 24px;
-    word-wrap: break-word
 }
 
 .image-content-1 {
@@ -376,28 +312,275 @@ html {
     position: absolute;
 }
 
-.image-content-2 {
+/* Content 2 */
+
+.content-2 {
     position: absolute;
-    width: 528.99px;
-    height: 670.21px;
-    left: -27.5px;
-    top: -47px;
+    width: 1222px;
+    height: 527px;
+    left: 72px;
+    top: 1154px;
 }
 
-.image-content-2 div {
+.header-content-2 {
+    /*
+    width: 704px;
+    left: 590px;
+    top: 1154px;
+    position: absolute;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 147px;
+    left: calc(50% - 704px/2 + 259px);
+    top: 1154px;
+    font-size: 36px;
+    line-height: 135%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.table {
+    /*
+    width: 290px;
+    position: absolute;
+    opacity: 0.70;
+    font-size: 20px;
+    line-height: 24px;
+    word-wrap: break-word;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 248px;
+    left: 590px;
+    top: 1361px;
+}
+
+.table-titles {
+    /*
+    left: 590px;
+    */
+
+    position: absolute;
+    width: 290px;
+    height: 248px;
+    left: 590px;
+    top: 1361px;
+}
+
+.table-descriptions {
+    /*
+    left: 912px;
+    font-weight: 600;
+    */
+
+    position: absolute;
+    width: 382px;
+    height: 248px;
+    left: 912px;
+    top: 1361px;
+}
+
+.table-title-1 {
+    /*
+    top: 1361px;
+    */
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    left: 590px;
+    top: 1361px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    opacity: 0.7;
+}
+
+.table-title-2 {
+    /*
+    top: 1417px;
+    */
+
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    left: 590px;
+    top: 1417px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on; 
+    opacity: 0.7;
+}
+
+.table-title-3 {
+    /*
+    top: 1473px;
+    */
+
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    left: 590px;
+    top: 1473px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    opacity: 0.7;
+}
+
+.table-title-4 {
+    /*
+    top: 1529px;
+    */
+
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    left: 590px;
+    top: 1529px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    opacity: 0.7;
+}
+
+.table-title-5 {
+    /*
+    top: 1585px;
+    */
+
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    left: 590px;
+    top: 1585px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    opacity: 0.7;
+}
+
+.table-description-1 {
+    position: absolute;
+    width: 382px;
+    height: 24px;
+    left: 912px;
+    top: 1361px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.table-description-2 {
+    position: absolute;
+    width: 268px;
+    height: 24px;
+    left: 912px;
+    top: 1417px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.table-description-3 {
+    position: absolute;
+    width: 268px;
+    height: 24px;
+    left: 912px;
+    top: 1473px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.table-description-4 {
+    position: absolute;
+    width: 268px;
+    height: 24px;
+    left: 912px;
+    top: 1529px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.last-table-description-5 {
+    position: absolute;
+    width: 82px;
+    height: 24px;
+    left: 912px;
+    top: 1585px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.table-description-5 {
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 1006px;
+    top: 1585px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.note-content-2 {
+    /*
+    width: 704px;
+    left: 590px;
+    top: 1657px;
+    position: absolute;
+    color: #3057A2;
+    font-size: 20px;
+    line-height: 24px;
+    word-wrap: break-word
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 24px;
+    left: 590px;
+    top: 1657px;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3057A2;
+}
+
+.image-content-2 {
+    /*
     position: absolute;
     width: 528.99px;
     height: 670.21px;
     left: -27.5px;
     top: -47px;
+    */
+
+    position: absolute;
+    width: 528.99px;
+    height: 670.21px;
+    left: 44.5px;
+    top: 1107px;
 }
 
 .image-1-content-2 {
+    /*
     position: absolute;
     width: 528.99px;
     height: 651.03px;
     left: -27.5px;
     top: -27.81px;
+    */
+
+    position: absolute;
+    width: 528.99px;
+    height: 651.03px;
+    left: 44.5px;
+    top: 1126.19px;
 }
 
 /*
@@ -414,38 +597,108 @@ html {
 */
 
 .table-vectors {
+    /*
     position: absolute;
-    border: 2px #D0D0D0 solid
+    border: 2px #D0D0D0 solid;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 248px;
+    left: 590px;
+    top: 1361px;
 }
 
 .horizontal-vectors {
+    /*
     width: 704px;
     height: 0px;
     left: 590px;
-}
+    */
 
-.horizontal-vector-1 {
+    position: absolute;
+    width: 704px;
+    height: 168px;
+    left: 590px;
     top: 1401px;
 }
 
+.horizontal-vector-1 {
+    /*
+    top: 1401px;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 0px;
+    left: 590px;
+    top: 1401px;
+    border: 2px solid #D0D0D0;
+}
+
 .horizontal-vector-2 {
+    /*
     top: 1457px;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 0px;
+    left: 590px;
+    top: 1457px;
+    border: 2px solid #D0D0D0;
 }
 
 .horizontal-vector-3 {
+    /*
     top: 1513px;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 0px;
+    left: 590px;
+    top: 1513px;
+    border: 2px solid #D0D0D0;
 }
 
 .horizontal-vector-4 {
+    /*
     top: 1569px;
+    */
+
+    position: absolute;
+    width: 704px;
+    height: 0px;
+    left: 590px;
+    top: 1569px;
+    border: 2px solid #D0D0D0;
 }
 
 .red-vector {
+    /*
     width: 81px;
     height: 0px;
     left: 910.50px;
     top: 1599.50px;
-    border: 2px #F54932 solid
+    border: 2px #F54932 solid;
+    */
+
+    position: absolute;
+    width: 81px;
+    height: 0px;
+    left: 910.5px;
+    top: 1599.5px;
+    border: 2px solid #F54932;
+}
+
+.vertical-vector {
+    position: absolute;
+    width: 0px;
+    height: 248px;
+    left: 896px;
+    top: 1361px;
+    border: 2px solid #D0D0D0;
 }
 
 /* Content 3 */
