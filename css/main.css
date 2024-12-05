@@ -179,6 +179,7 @@ html {
 .button-1 {
     flex: 1 1 0;
     padding: 20px;
+    background: #1F1F1F;
     border-radius: 66px;
     flex-direction: column;
     justify-content: center;
@@ -191,7 +192,6 @@ html {
     text-align: center;
     color: white;
     font-size: 16px;
-    font-weight: 500;
     line-height: 20.80px;
     word-wrap: break-word;
 }
@@ -210,23 +210,13 @@ html {
 .button-2 span {
     width: 165px;
     text-align: center;
+    color: #1F1F1F;
     font-size: 16px;
-    font-weight: 500;
     line-height: 20.80px;
     word-wrap: break-word;
 }
 
 .title-description {
-    /*
-    width: 542px;
-    left: 0px;
-    top: 288px;
-    position: absolute;
-    text-align: center;
-    font-size: 18px;
-    line-height: 23.40px;
-    word-wrap: break-word;
-    */
     position: absolute;
     width: 542px;
     height: 46px;
@@ -295,7 +285,7 @@ html {
 .content-1 {
     width: 1222px;
     height: 250px;
-    left: 72px;
+    left: 349px;
     top: 840px;
     position: absolute;
 }
