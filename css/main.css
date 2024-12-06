@@ -330,6 +330,7 @@ html {
     position: absolute;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 147px;
@@ -339,6 +340,42 @@ html {
     line-height: 135%;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    width: 704px;
+    left: 545.50px;
+    top: 47px;
+    position: absolute;
+}
+
+.header-1-content-2 {
+    color: #313131;
+    font-size: 36px;
+    font-family: Merriweather;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 48.60px;
+    word-wrap: break-word;
+}
+
+.header-2-content-2 {
+    color: #F54932;
+    font-size: 36px;
+    font-family: Merriweather;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48.60px;
+    word-wrap: break-word;
+}
+
+.header-3-content-2 {
+    color: #313131;
+    font-size: 36px;
+    font-family: Merriweather;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 48.60px;
+    word-wrap: break-word;
 }
 
 .table {
@@ -351,11 +388,25 @@ html {
     word-wrap: break-word;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 248px;
     left: 590px;
     top: 1361px;
+    */
+
+    /*
+    position: absolute;
+    width: 704px;
+    height: 248px;
+    */
+
+    width: 704px;
+    height: 248px;
+    left: 545.50px;
+    top: 254px;
+    position: absolute;
 }
 
 .table-titles {
@@ -363,11 +414,25 @@ html {
     left: 590px;
     */
 
+    /*
     position: absolute;
     width: 290px;
     height: 248px;
     left: 590px;
     top: 1361px;
+    */
+
+    /*
+    position: absolute;
+    width: 290px;
+    height: 248px;
+    */
+
+    width: 290px;
+    height: 248px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
 }
 
 .table-descriptions {
@@ -376,17 +441,27 @@ html {
     font-weight: 600;
     */
 
+    /*
     position: absolute;
     width: 382px;
     height: 248px;
     left: 912px;
     top: 1361px;
+    */
+
+    width: 382px;
+    height: 248px;
+    left: 322px;
+    top: 0px;
+    position: absolute;
 }
 
 .table-title-1 {
     /*
     top: 1361px;
     */
+
+    /*
     position: absolute;
     width: 290px;
     height: 24px;
@@ -396,6 +471,32 @@ html {
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     opacity: 0.7;
+    */
+
+    /*
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    opacity: 0.7;
+    */
+
+    width: 290px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.70;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-title-2 {
@@ -403,6 +504,7 @@ html {
     top: 1417px;
     */
 
+    /*
     position: absolute;
     width: 290px;
     height: 24px;
@@ -412,6 +514,19 @@ html {
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on; 
     opacity: 0.7;
+    */
+
+    width: 290px;
+    left: 0px;
+    top: 56px;
+    position: absolute;
+    opacity: 0.70;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-title-3 {
@@ -419,6 +534,7 @@ html {
     top: 1473px;
     */
 
+    /*
     position: absolute;
     width: 290px;
     height: 24px;
@@ -428,6 +544,19 @@ html {
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     opacity: 0.7;
+    */
+
+    width: 290px;
+    left: 0px;
+    top: 112px;
+    position: absolute;
+    opacity: 0.70;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-title-4 {
@@ -435,6 +564,7 @@ html {
     top: 1529px;
     */
 
+    /*
     position: absolute;
     width: 290px;
     height: 24px;
@@ -444,6 +574,19 @@ html {
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     opacity: 0.7;
+    */
+
+    width: 290px;
+    left: 0px;
+    top: 168px;
+    position: absolute;
+    opacity: 0.70;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-title-5 {
@@ -451,6 +594,7 @@ html {
     top: 1585px;
     */
 
+    /*
     position: absolute;
     width: 290px;
     height: 24px;
@@ -460,9 +604,23 @@ html {
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     opacity: 0.7;
+    */
+
+    width: 290px;
+    left: 0px;
+    top: 224px;
+    position: absolute;
+    opacity: 0.70;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-description-1 {
+    /*
     position: absolute;
     width: 382px;
     height: 24px;
@@ -471,9 +629,22 @@ html {
     font-size: 20px;
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    width: 382px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-description-2 {
+    /*
     position: absolute;
     width: 268px;
     height: 24px;
@@ -482,9 +653,22 @@ html {
     font-size: 20px;
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    width: 268px;
+    left: 0px;
+    top: 56px;
+    position: absolute;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-description-3 {
+    /*
     position: absolute;
     width: 268px;
     height: 24px;
@@ -493,9 +677,22 @@ html {
     font-size: 20px;
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    width: 268px;
+    left: 0px;
+    top: 112px;
+    position: absolute;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-description-4 {
+    /*
     position: absolute;
     width: 268px;
     height: 24px;
@@ -504,9 +701,22 @@ html {
     font-size: 20px;
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    width: 268px;
+    left: 0px;
+    top: 168px;
+    position: absolute;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .last-table-description-5 {
+    /*
     position: absolute;
     width: 82px;
     height: 24px;
@@ -515,9 +725,21 @@ html {
     font-size: 20px;
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    left: 0px;
+    top: 224px;
+    position: absolute;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .table-description-5 {
+    /*
     position: absolute;
     width: 143px;
     height: 24px;
@@ -526,6 +748,17 @@ html {
     font-size: 20px;
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    */
+
+    left: 94px;
+    top: 224px;
+    position: absolute;
+    color: #313131;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .note-content-2 {
@@ -540,6 +773,7 @@ html {
     word-wrap: break-word
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 24px;
@@ -549,6 +783,18 @@ html {
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #3057A2;
+    */
+
+    width: 704px;
+    left: 545.50px;
+    top: 550px;
+    position: absolute;
+    color: #3057A2;
+    font-size: 20px;
+    font-family: Golos Text;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
 .image-content-2 {
@@ -560,11 +806,19 @@ html {
     top: -47px;
     */
 
+    /*
     position: absolute;
     width: 528.99px;
     height: 670.21px;
     left: 44.5px;
     top: 1107px;
+    */
+
+    width: 528.99px;
+    height: 670.21px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
 }
 
 .image-1-content-2 {
@@ -576,11 +830,19 @@ html {
     top: -27.81px;
     */
 
+    /*
     position: absolute;
     width: 528.99px;
     height: 651.03px;
     left: 44.5px;
     top: 1126.19px;
+    */
+
+    width: 528.99px;
+    height: 651.03px;
+    left: 0px;
+    top: 19.19px;
+    position: absolute;
 }
 
 /*
@@ -593,6 +855,18 @@ html {
     background: url(../img/body/roughness.png);
     mix-blend-mode: color-burn;
     transform: rotate(-90deg);
+*/
+    /*
+    width: 609px;
+    height: 528px;
+    left: 0.50px;
+    top: 609px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    mix-blend-mode: color-burn;
+    */
+/*
 }
 */
 
@@ -602,11 +876,19 @@ html {
     border: 2px #D0D0D0 solid;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 248px;
     left: 590px;
     top: 1361px;
+    */
+
+    width: 704px;
+    height: 248px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
 }
 
 .horizontal-vectors {
@@ -616,11 +898,19 @@ html {
     left: 590px;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 168px;
     left: 590px;
     top: 1401px;
+    */
+
+    width: 704px;
+    height: 168px;
+    left: 0px;
+    top: 40px;
+    position: absolute;
 }
 
 .horizontal-vector-1 {
@@ -628,12 +918,21 @@ html {
     top: 1401px;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 0px;
     left: 590px;
     top: 1401px;
     border: 2px solid #D0D0D0;
+    */
+
+    width: 704px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: 2px #D0D0D0 solid;
 }
 
 .horizontal-vector-2 {
@@ -641,12 +940,21 @@ html {
     top: 1457px;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 0px;
     left: 590px;
     top: 1457px;
     border: 2px solid #D0D0D0;
+    */
+
+    width: 704px;
+    height: 0px;
+    left: 0px;
+    top: 56px;
+    position: absolute;
+    border: 2px #D0D0D0 solid;
 }
 
 .horizontal-vector-3 {
@@ -654,12 +962,21 @@ html {
     top: 1513px;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 0px;
     left: 590px;
     top: 1513px;
     border: 2px solid #D0D0D0;
+    */
+
+    width: 704px;
+    height: 0px;
+    left: 0px;
+    top: 112px;
+    position: absolute;
+    border: 2px #D0D0D0 solid;
 }
 
 .horizontal-vector-4 {
@@ -667,12 +984,21 @@ html {
     top: 1569px;
     */
 
+    /*
     position: absolute;
     width: 704px;
     height: 0px;
     left: 590px;
     top: 1569px;
     border: 2px solid #D0D0D0;
+    */
+
+    width: 704px;
+    height: 0px;
+    left: 0px;
+    top: 168px;
+    position: absolute;
+    border: 2px #D0D0D0 solid;
 }
 
 .red-vector {
@@ -684,21 +1010,39 @@ html {
     border: 2px #F54932 solid;
     */
 
+    /*
     position: absolute;
     width: 81px;
     height: 0px;
     left: 910.5px;
     top: 1599.5px;
     border: 2px solid #F54932;
+    */
+
+    width: 81px;
+    height: 0px;
+    left: 320.50px;
+    top: 238.50px;
+    position: absolute;
+    border: 2px #F54932 solid;
 }
 
 .vertical-vector {
+    /*
     position: absolute;
     width: 0px;
     height: 248px;
     left: 896px;
     top: 1361px;
     border: 2px solid #D0D0D0;
+    */
+
+    width: 0px;
+    height: 248px;
+    left: 306px;
+    top: 0px;
+    position: absolute;
+    border: 2px #D0D0D0 solid;
 }
 
 /* Content 3 */
