@@ -1,0 +1,15 @@
+@media (max-width: 1366px) {
+
+    body, header {
+    max-width: 1366px;
+}
+
+    .logo-img {
+        left: 5.27%;
+    }
+
+    .logo-span {
+        left: 0;
+    }
+
+}
