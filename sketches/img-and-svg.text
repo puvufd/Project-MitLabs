@@ -60,3 +60,7 @@ vector 99
                 style="width: 81px; height: 0px; left: 910.50px; top: 1599.50px; position: absolute; border: 2px #F54932 solid">
             </div>
 
+point counter
+<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="5" cy="5" r="5" fill="#313131"/>
+</svg>
