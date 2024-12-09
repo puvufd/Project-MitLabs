@@ -6,17 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextButton = document.getElementById('next');
 
     let currentIndex = 0;
-    let itemsPerView = 3; // по умолчанию для настольных устройств
+    let itemsPerView = 3;
 
     function updateCarousel() {
-        // Проверяем количество видимых элементов в зависимости от ширины экрана
         if (window.innerWidth <= 768) {
             itemsPerView = 1;
         } else {
             itemsPerView = 3;
         }
 
-        // Скрываем всех участников
         participants.forEach((participant, index) => {
             participant.classList.remove('active');
             if (index >= currentIndex && index < currentIndex + itemsPerView) {
@@ -24,12 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-        // Обновление счетчика
         const start = currentIndex + 1;
         const end = Math.min(currentIndex + itemsPerView, totalItems);
         counterElement.textContent = `${end}/${totalItems}`;
 
-        // Обновление состояния кнопок
         prevButton.disabled = currentIndex === 0;
         nextButton.disabled = currentIndex + itemsPerView >= totalItems;
     }
@@ -51,5 +47,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('resize', updateCarousel);
 
-    updateCarousel(); // Инициализация карусели
+    updateCarousel();
 });
