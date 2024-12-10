@@ -1,15 +1,5 @@
 @media (max-width: 1366px) {
 
-    /*
-    body, header {
-    max-width: 1366px;
-    }
-    */
-
-    html, body {
-        height: 6000px;
-    }
-
     .logo, .content, .footer span {
         left: 5.27%;
     }
@@ -18,12 +8,16 @@
 
 @media (max-width: 1284.36px) {
 
+    .body {
+        height: 4403px;
+    }
+
     .running-line-wrapper-lower {
-        top: 4245px;
+        top: 3432px;
     }
 
     .footer {
-        top: 4283px;
+        top: 4253px;  
     }
 
     .content-1 {
@@ -95,18 +89,23 @@
         top: 184px;
     }
 
-    .table-title-4, .table-description-4 {
+    .table-title-4 {
         top: 276px;
     }
 
+    .table-description-4 {
+        top: 240px;
+        left: 173px;
+    }
+
     .table-title-5, .table-description-5, .last-table-description-5 {
-        top: 368px;
+        top: 332px;
     }
 
     .note-content-2 {
         width: 335px;
         left: 1px;
-        top: 1173px;
+        top: 1130px;
         font-size: 18px;
         line-height: 21.60px;
     }
@@ -158,13 +157,13 @@
     }
 
     .horizontal-vector-4 {
-        top: 276px;
+        top: 240px;
     }
 
     .red-vector {
         width: 87px;
         left: 0px;
-        top: 342px;
+        top: 306px;
     }
 
     .vertical-vector {
@@ -173,98 +172,24 @@
 
     /* Content 3 */
 
-    
-    /*
     .content-3 {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-
         width: 335px;
         height: 688px;
         top: 2753px;
     }
 
     .header-content-3 {
-        position: absolute;
-        text-transform: uppercase;
-        word-wrap: break-word;
-
         width: 335px;
         font-size: 36px;
         line-height: 39.60px;
     }
 
     .subtitle-content-3 {
-        position: absolute;
-        color: #3057A2;
-        word-wrap: break-word;
-
         width: 335px;
         left: 0px;
         top: 132px;
         font-size: 18px;
         line-height: 21.60px;
-    }
-
-    .buttons-content-3 {
-        display: block;
-        left: 79px; 
-        top: 652px;
-        position: absolute;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        display: inline-flex;
-    }
-
-    .prev-button-content-3,
-    .next-button-content-3 {
-        display: block;
-        width: 36px;
-        height: 36px;
-        position: relative;
-    }
-
-    .counter-content-3 {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        gap: 6px;
-        display: flex
-    }
-
-    .counter-content-3 svg {
-        display: block;
-    }
-
-    .counter-content-3-active {
-        display: block;
-        width: 10px;
-        height: 10px;
-        background: #313131;
-        border-radius: 9999px;
-    }
-
-    .counter-content-3-non-active {
-        display: block;
-        width: 10px;
-        height: 10px;
-        background: #D9D9D9;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-
-    */
-
-    .content-3 {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 335px;
-        height: 688px;
-        top: 2753px;
     }
 
     .corusel-content-3 {
@@ -294,7 +219,6 @@
         opacity: 0.8;
         transform: rotate(-90deg);
         pointer-events: none;
-
         transform-origin: 0 0; 
         box-shadow: 5px 4px 12.699999809265137px rgba(0, 0, 0, 0.25); 
     }
@@ -318,10 +242,6 @@
 
     .contents-3.active {
         display: block;
-    }
-
-    .content-3-1, .content-3-2, .content-3-3, .content-3-4, .content-3-5, .content-3-6, .content-3-7 {
-    position: absolute;
     }
 
     .content-3-1 {
@@ -371,9 +291,6 @@
     }
 
     .content-3-1 span, .content-3-2 span, .content-3-3 span, .content-3-4 span, .content-3-5 span, .content-3-6 span, .content-3-7 span {
-        position: absolute;
-        word-wrap: break-word;
-
         width: 243px;
         left: 52px;
         top: 0px;
@@ -381,23 +298,10 @@
         line-height: 21.60px;
         }
 
-        .numbers-content-3 {
-        width: 36px;
-        height: 36px;
-        position: absolute;
-        background: white;
-        border-radius: 60px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        
+    .numbers-content-3 {        
         left: 0px;
         top: 0px;
         display: inline-flex;
-    }
-
-    .numbers-content-3 div {
-        position: absolute;
     }
 
     .buttons-content-3 {
@@ -411,14 +315,9 @@
         top: 652px;
     }
 
-    .prev-button-content-3,
-    .next-button-content-3 {
-        display: flex;
+    .prev-button-content-3, .next-button-content-3 {
         width: 44px;
         height: 44px;
-        cursor: pointer;
-        background: none;
-        border: none;
     }
 
     .counter-content-3 {
@@ -443,13 +342,193 @@
     }
 
     .image-content-3 {
-        position: absolute;
-        transform-origin: 0 0;
-
         width: 335px;
         height: 182px;
         left: 0px;
         top: 196px;
+    }
+
+    /* Content 4 */
+
+    .content-4 {
+        width: 335px;
+        height: 584px;
+        top: 3561px;
+    }
+
+    .header-content-4 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    .buttons-content-4 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 548px;
+    }
+
+    .carousel-participants {
+        top: 31.25px;
+
+    }
+
+    .participants {
+        width: 335px;
+    }
+
+    .avatar {
+        width: 244px;
+        height: 244px;
+    }
+
+    .names-participants {
+        line-height: 120%;
+    }
+
+    .achievements-participants {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .more-detailed-practicant span {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .head {
+        height: 774px;
+    }
+
+    .logo {
+        width: 213px;
+        height: 32px;
+        left: 5.33%;
+        top: 18px;
+    }
+
+    .logo-img {
+        width: 79.5px;
+        height: 27px;
+        top: 2px;
+    }
+
+    .logo-span {
+        width: 128px;
+        height: 32px;
+        left: 85px;
+        top: 0;
+        font-size: 14.4176px;
+    }
+
+    .head-img {
+        width: 900.01px;
+        height: 812px;
+        top: 0px;
+    }
+
+    .head-chess {
+        display: none;
+    }
+
+    .head-chess-mobile {
+        display: block;
+        position: absolute;
+        width: 375px;
+        height: auto;
+        top: 383.59px;
+    }
+
+    .content {
+        width: 335px;
+        height: 393px;
+        left: 5.33%;
+        top: 90px;
+    }
+
+    .headline {
+        width: 335px;
+        height: 160px;
+    }
+
+    .headline-span-1, .headline-span-2, .headline-span-3 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    .headline-span-1 {
+        width: 335px;
+    }
+
+    .headline-span-2 {
+            left: 43.25px;
+            top: 80px;
+    }
+
+    .headline-span-3 {
+        width: 335px;
+        top: 120px;
+    }
+
+    .btns {
+        width: 335px;
+        height: 108px;
+        left: 5.33%;
+        top: 285px;
+        gap: 0;
+    }
+
+    .button-1 {
+        top: 0;
+    }
+
+    .button-1, .button-2 {
+        padding: 18px 20px;
+        position: absolute;
+        width: 335px;
+        height: 47px;
+    }
+
+    .button-2 {
+        top: 61px;
+        background: white;
+        border: none;
+        /* box-sizing: border-box; */
+    }
+
+    .button-1 span, .button-2 span {
+        width: 249px;
+        font-size: 16px;
+        line-height: 130%;
+        word-wrap: break-word;
+    }
+
+    .title-description {
+        text-align: left;
+        width: 335px;
+        height: 69px;
+        left: 5.33%;
+        top: 184px;
+    }
+
+    .running-line-wrapper, .running-line-wrapper-lower {
+        height: 38px;
+        padding: 10px 12px; 
+        display: flex;
+        align-items: center;
+    }
+
+    .running-line span, .running-line-lower span {
+        font-size: 16px;
+        line-height: 110%;
+    }
+
+    .footer {
+        top: 4322px;
+        height: 214px;
     }
 
 }

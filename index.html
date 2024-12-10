@@ -13,17 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     
     <div>
-
         <div class="logo golos-text-bold">
             <img class="logo-img" src="./img/head/logo.png" alt="Logo">
-            <span class="logo-span"> Клуб четырех коней </span>
+            <span class="logo-span"> Клуб <br> четырех коней </span>
         </div>
-
         <div class="head-img">
             <img class="head-chess" src="./img/head/chess.png" alt="Chess in city">
             <img class="head-roughness" src="./img/head/roughness.png">
+            <img class="head-chess-mobile" src="./img/head/chess-mobile.png" alt="Chess">
         </div>
-
         <div class="content">
             <div class="headline merriweather-regular">
                 <span class="headline-span-1"> Превратите уездный город </span>
@@ -31,12 +29,12 @@
                 <span class="headline-span-3"> земного шара </span>
             </div>
             <div class="btns golos-text-normal">
-                <div class="button-1">
+                <button class="button-1" onclick="scrollToDiv('content-1')">
                     <span> Поддержать шахматную мысль </span>
-                </div>
-                <div class="button-2">
+                </button>
+                <button class="button-2" onclick="scrollToDiv('content-3')">
                     <span> Подробнее о турнире </span>
-                </div>
+                </button>
             </div>
             <span class="title-description golos-text-little"> Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам </span>
         </div>
@@ -78,7 +76,7 @@
 
 <body class="body golos-text-normal">
 
-    <div class="content-1">
+    <div class="content-1" id="content-1">
         <div class="header-content-1">
             <span class="span-1-content-1 merriweather-regular"> Чтобы поддержать Международный васюкинский турнир </span>
             <div>
@@ -86,7 +84,7 @@
                 <span class="span-3-content-1 red-text merriweather-bold"> «Плодотворная дебютная идея» </span>
             </div>
         </div>
-        <img class="image-content-1" src="./img/body/chess-players.png" alt="Chess players">
+        <img class="image-content-1" src="./img/body/content-1/chess-players.png" alt="Chess players">
     </div>
 
     <div class="content-2">
@@ -147,7 +145,7 @@
     </div>
     <img class="roughness-content-2" src="./img/body/content-2/roughness.png">
 
-    <div class="content-3 golos-text-normal">
+    <div class="content-3 golos-text-normal" id="content-3">
         <span class="header-content-3 merriweather-regular"> Этапы преображения Васюков </span>
         <span class="subtitle-content-3 golos-text-little"> Будущие источники обогащения васюкинцев </span>
         <div class="stages">
@@ -216,11 +214,11 @@
         </div>
         <img class="image-content-3" src="./img/body/content-3/plane.png" alt="Plane">
         <div class="buttons-content-3">
-            <button class="prev-button-content-3" id="prev" aria-label="Previous">
+            <button class="prev-button-content-3" id="prev-content-3" aria-label="Previous">
                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" fill="#313131" />
-                <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
-                    stroke-linecap="square" />
+                    <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" />
+                    <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
+                        stroke-linecap="square" />
                 </svg>
             </button>
             <div class="counter-content-3">
@@ -240,22 +238,22 @@
                     <circle cx="5" cy="5" r="5"/>
                 </svg>
             </div>
-            <button class="next-button-content-3" id="next" aria-label="Next">
+            <button class="next-button-content-3" id="next-content-3" aria-label="Next">
                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" fill="#313131" />
-                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
-                    stroke-linecap="square" />
+                    <circle cx="22" cy="22" r="22" />
+                    <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
+                        stroke-linecap="square" />
                 </svg>
             </button>
         </div>
     </div>
 
-    <div class="content-4 no">
+    <div class="content-4">
         <span class="header-content-4 merriweather-regular"> Участники турнира </span>
         <div class="buttons-content-4 golos-text-little">
             <button class="prev-button" id="prev" aria-label="Previous">
                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" fill="#313131" />
+                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" />
                 <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
                     stroke-linecap="square" />
                 </svg>   
@@ -265,7 +263,7 @@
             </div>
             <button class="next-button" id="next" aria-label="Next">
                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="22" cy="22" r="22" fill="#313131" />
+                    <circle cx="22" cy="22" r="22" />
                     <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
                         stroke-linecap="square" />
                 </svg>
@@ -276,59 +274,64 @@
                 <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
                 <span class="names-participants golos-text-little-bold"> Хозе-Рауль Капабланка </span>
                 <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                <div class="more-detailed-practicant golos-text-normal">
+                <a class="more-detailed-practicant golos-text-normal" href="#">
                     <span> Подробнее </span>
-                </div>
+                </a>
             </div>
             <div class="participants">
                 <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
                 <span class="names-participants golos-text-little-bold"> Эммануил Ласкер </span>
                 <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                <div class="more-detailed-practicant golos-text-normal">
+                <a class="more-detailed-practicant golos-text-normal" href="#">
                     <span> Подробнее </span>
-                </div>
+                </a>
             </div>
             <div class="participants">
                 <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
                 <span class="names-participants golos-text-little-bold"> Александр Алехин </span>
                 <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                <div class="more-detailed-practicant golos-text-normal">
+                <a class="more-detailed-practicant golos-text-normal" href="#">
                     <span> Подробнее </span>
-                </div>
+                </a>
             </div>
             <div class="participants">
                 <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
                 <span class="names-participants golos-text-little-bold"> Арон Нимцович </span>
                 <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                <div class="more-detailed-practicant golos-text-normal">
+                <a class="more-detailed-practicant golos-text-normal" href="#">
                     <span> Подробнее </span>
-                </div>
+                </a>
             </div>
             <div class="participants">
                 <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
                 <span class="names-participants golos-text-little-bold"> Рихард Рети </span>
                 <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                <div class="more-detailed-practicant golos-text-normal">
+                <a class="more-detailed-practicant golos-text-normal" href="#">
                     <span> Подробнее </span>
-                </div>
+                </a>
             </div>
             <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Остап Бендер </span>
-                    <span class="achievements-participants golos-text-little"> Гроссмейстер </span>
-                    <div class="more-detailed-practicant golos-text-normal">
+                <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
+                <span class="names-participants golos-text-little-bold"> Остап Бендер </span>
+                <span class="achievements-participants golos-text-little"> Гроссмейстер </span>
+                <a class="more-detailed-practicant golos-text-normal" href="#">
                     <span> Подробнее </span>
-                    </div>
+                </a>
             </div>
         </div>     
     </div>
 
+    <script>
+        function scrollToDiv(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
     <script src="./javascript/carousel-stages.js"></script>
     <script src="./javascript/carousel-participants.js"></script>
 
 </body>
 
-<div class="running-line-wrapper-lower no">
+<div class="running-line-wrapper-lower">
     <div class="running-line-lower lower-line merriweather-regular">
         <span> Дело помощи утопающим — дело рук самих утопающих! </span>
         <svg class="point" width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -359,7 +362,7 @@
     </div>
 </div>
 
-<footer class="footer golos-text-normal background no">
+<footer class="footer golos-text-normal background">
 
     <span> Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев». </span>
 

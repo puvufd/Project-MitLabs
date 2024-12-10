@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const contents = document.querySelectorAll('.contents-3');
     const totalGroups = 5; // 5 групп: [1,2], [3], [4,5], [6], [7]
-    const prevButton = document.getElementById('prev');
-    const nextButton = document.getElementById('next');
+    const prevButton = document.getElementById('prev-content-3');
+    const nextButton = document.getElementById('next-content-3');
     const counterDots = document.querySelectorAll('.counter-content-3 svg');
 
     let currentIndex = 0;

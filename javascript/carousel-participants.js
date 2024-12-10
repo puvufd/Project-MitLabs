@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentIndex = 0;
     let itemsPerView = 3;
+    let autoSlideInterval;
 
     function updateCarousel() {
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 1284.36) {
             itemsPerView = 1;
         } else {
             itemsPerView = 3;
@@ -30,22 +31,43 @@ document.addEventListener("DOMContentLoaded", function () {
         nextButton.disabled = currentIndex + itemsPerView >= totalItems;
     }
 
+    function nextSlide() {
+        if (currentIndex + itemsPerView < totalItems) {
+            currentIndex += itemsPerView;
+        } else {
+            currentIndex = 0; // Возврат к первому слайду
+        }
+        updateCarousel();
+    }
+
     prevButton.addEventListener('click', function () {
         if (currentIndex > 0) {
             currentIndex -= itemsPerView;
-            if (currentIndex < 0) currentIndex = 0; // Защита от выхода за границы
+            if (currentIndex < 0) currentIndex = 0; 
             updateCarousel();
         }
     });
 
     nextButton.addEventListener('click', function () {
-        if (currentIndex + itemsPerView < totalItems) {
-            currentIndex += itemsPerView;
-            updateCarousel();
-        }
+        nextSlide();
     });
 
     window.addEventListener('resize', updateCarousel);
+
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(nextSlide, 4000);
+    }
+
+    function stopAutoSlide() {
+        clearInterval(autoSlideInterval);
+    }
+
+    // Запускаем автоматическую смену слайдов
+    startAutoSlide();
+
+    // Останавливаем автоматическую смену слайдов при наведении курсора
+    document.querySelector('.carousel-participants').addEventListener('mouseenter', stopAutoSlide);
+    document.querySelector('.carousel-participants').addEventListener('mouseleave', startAutoSlide);
 
     updateCarousel();
 });
