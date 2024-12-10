@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const contents = document.querySelectorAll('.contents-3');
-    const totalItems = contents.length;
+    const totalGroups = 5; // 5 групп: [1,2], [3], [4,5], [6], [7]
     const prevButton = document.getElementById('prev');
     const nextButton = document.getElementById('next');
     const counterDots = document.querySelectorAll('.counter-content-3 svg');
@@ -9,37 +9,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateCarousel() {
         // Скрываем всех участников и сбрасываем счётчик
-        contents.forEach((content, index) => {
-            content.classList.remove('active');
-            counterDots[index].classList.remove('counter-content-3-active');
-            counterDots[index].classList.add('counter-content-3-non-active');
-        });
+        contents.forEach(content => content.classList.remove('active'));
+        counterDots.forEach(dot => dot.classList.remove('active'));
 
-        // Показываем один или два элемента в зависимости от индекса
-        if (currentIndex === 0 || currentIndex === 1) {
-            contents[0].classList.add('active');
-            contents[1].classList.add('active');
-            counterDots[0].classList.add('counter-content-3-active');
-            counterDots[1].classList.add('counter-content-3-active');
-        } else if (currentIndex === 2) {
-            contents[2].classList.add('active');
-            counterDots[2].classList.add('counter-content-3-active');
-        } else if (currentIndex === 3 || currentIndex === 4) {
-            contents[3].classList.add('active');
-            contents[4].classList.add('active');
-            counterDots[3].classList.add('counter-content-3-active');
-            counterDots[4].classList.add('counter-content-3-active');
-        } else if (currentIndex === 5) {
-            contents[5].classList.add('active');
-            counterDots[5].classList.add('counter-content-3-active');
-        } else if (currentIndex === 6) {
-            contents[6].classList.add('active');
-            counterDots[6].classList.add('counter-content-3-active');
+        // Определяем текущую группу и показываем соответствующие элементы
+        switch (currentIndex) {
+            case 0:
+                contents[0].classList.add('active');
+                contents[1].classList.add('active');
+                break;
+            case 1:
+                contents[2].classList.add('active');
+                break;
+            case 2:
+                contents[3].classList.add('active');
+                contents[4].classList.add('active');
+                break;
+            case 3:
+                contents[5].classList.add('active');
+                break;
+            case 4:
+                contents[6].classList.add('active');
+                break;
         }
+
+        // Обновление состояния счётчика
+        counterDots[currentIndex].classList.add('active');
 
         // Обновление состояния кнопок
         prevButton.disabled = currentIndex === 0;
-        nextButton.disabled = currentIndex >= 6; // 6 - последний возможный индекс
+        nextButton.disabled = currentIndex === totalGroups - 1;
     }
 
     prevButton.addEventListener('click', function () {
@@ -50,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     nextButton.addEventListener('click', function () {
-        if (currentIndex < 6) {
+        if (currentIndex < totalGroups - 1) {
             currentIndex++;
             updateCarousel();
         }

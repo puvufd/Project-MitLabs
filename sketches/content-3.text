@@ -84,69 +84,157 @@
 
 
 
+<div class="content-3">
+    <span class="header-content-3"> ... </span>
+    <span class="subtitle-content-3"> ... </span>
+    <div class="stages">
+        <div class="corusel-content-3">
+            <div class="contents-3 content-3-1">
+                <div class="numbers-content-3">
+                    <div> 1 </div>
+                </div>
+                <span> ... </span>
+            </div>
+            <div class="contents-3 content-3-2">
+                <div class="numbers-content-3">
+                    <div> 2 </div>
+                </div>
+                <span> ... </span>
+            </div>
+            <div class="contents-3 content-3-3">
+                <div class="numbers-content-3">
+                    <div> 3 </div>
+                </div>
+                <span> ... </span>
+            </div>
+            <div class="contents-3 content-3-4">
+                <div class="numbers-content-3">
+                    <div> 4 </div>
+                </div>
+                <span> ... </span>
+            </div>
+            <div class="contents-3 content-3-5">
+                <div class="numbers-content-3">
+                    <div> 5 </div>
+                </div>
+                <span> ... </span>
+            </div>
+            <div class="contents-3 content-3-6">
+                <div class="numbers-content-3">
+                    <div> 6 </div>
+                </div>
+                <span> ... </span>
+            </div>
+            <div class="contents-3 content-3-7">
+                <div class="numbers-content-3">
+                    <div> 7 </div>
+                </div>
+                <span> ... </span>
+            </div>
+        </div>
+    </div>
+    <div class="buttons-content-3">
+        <button class="prev-button-content-3" id="prev" aria-label="Previous">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" fill="#313131" />
+            <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
+                stroke-linecap="square" />
+            </svg>
+        </button>
+        <div class="counter-content-3">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5"/>
+            </svg>
+        </div>
+        <button class="next-button-content-3" id="next" aria-label="Next">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="22" fill="#313131" />
+            <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
+                stroke-linecap="square" />
+            </svg>
+        </button>
+    </div>
+</div>
+
 @media (max-width: 1284.36px) {
+
     .content-3 {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-
         width: 335px;
         height: 688px;
         top: 2753px;
     }
 
-    .header-content-3 {
-        position: absolute;
-        text-transform: uppercase;
-        word-wrap: break-word;
-
+    .corusel-content-3 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
         width: 335px;
-        font-size: 36px;
-        line-height: 39.60px;
+        overflow: hidden;
     }
 
-    .subtitle-content-3 {
+    .stages {
         position: absolute;
-        color: #3057A2;
-        word-wrap: break-word;
-
         width: 335px;
+        height: 300px;
         left: 0px;
-        top: 132px;
-        font-size: 18px;
-        line-height: 21.60px;
+        top: 324px;
+        background: #D9D9D9;
+        overflow: hidden;
+    }
+
+    .contents-3 {
+        min-width: 335px;
+        flex-shrink: 0;
+        display: none;
+    }
+
+    .contents-3.active {
+        display: block;
     }
 
     .content-3-1, .content-3-2, .content-3-3, .content-3-4, .content-3-5, .content-3-6, .content-3-7 {
-        position: absolute;
-        overflow: hidden;
+    position: absolute;
     }
 
     .content-3-1 {
         width: 291px;
-        height: 88px;
         left: 20px;
         top: 62px;
     }
 
     .content-3-2 {
         width: 291px;
-        height: 88px;
         left: 20px;
         top: 178px;
     }
 
     .content-3-3 {
         width: 335px;
-        height: 300px;
-        left: 375px;
-        top: 324px;
-        background: #D9D9D9;
+        left: 20px;
+        top: 62px;
     }
 
     .content-3-4 {
-        background: #D9D9D9;
-
         width: 295px;
         height: 44px;
         left: 20px;
@@ -154,33 +242,38 @@
     }
 
     .content-3-5 {
-        background: #D9D9D9;
-
         width: 295px;
         height: 66px;
         left: 20px;
-        top: 134px;
+        top: 178px;
     }
 
     .content-3-6 {
-        background: #D9D9D9;
-
         width: 335px;
         height: 300px;
-        left: 1085px;
-        top: 324px;
+        left: 20px;
+        top: 62px;
     }
 
     .content-3-7 {
-        background: #D9D9D9;
-
         width: 335px;
         height: 300px;
-        left: 1440px;
-        top: 324px;
+        left: 20px;
+        top: 62px;
     }
 
-    .numbers-content-3 {
+    .content-3-1 span, .content-3-2 span, .content-3-3 span, .content-3-4 span, .content-3-5 span, .content-3-6 span, .content-3-7 span {
+        position: absolute;
+        word-wrap: break-word;
+
+        width: 243px;
+        left: 52px;
+        top: 0px;
+        font-size: 18px;
+        line-height: 21.60px;
+        }
+
+        .numbers-content-3 {
         width: 36px;
         height: 36px;
         position: absolute;
@@ -200,272 +293,99 @@
         line-height: 24px;
         word-wrap: break-word;
 
-        left: 12px;
-        top: 11px;
         position: absolute;
-    }
-
-    .content-3-1 span, .content-3-2 span, .content-3-3 span, .content-3-4 span, .content-3-5 span, .content-3-6 span, .content-3-7 span {
-        position: absolute;
-        word-wrap: break-word;
-
-        width: 243px;
-        left: 52px;
-        top: 0px;
-        font-size: 18px;
-        line-height: 21.60px;
     }
 
     .buttons-content-3 {
-        display: block;
-        left: 79px; /* left: 21.07%; */
-        top: 652px;
-        position: absolute;
+        display: flex;
         justify-content: center;
         align-items: center;
         gap: 16px;
-        display: inline-flex;
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
     }
 
     .prev-button-content-3,
     .next-button-content-3 {
-        display: block;
-        width: 36px;
-        height: 36px;
-        position: relative;
+        display: flex;
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
     }
 
     .counter-content-3 {
-        display: block;
-        justify-content: center;
-        align-items: center;
+        display: flex;
         gap: 6px;
-        display: flex
-    }
-
-    .counter-content-3 svg {
-        display: block;
     }
 
     .counter-content-3-active {
-        display: block;
-        width: 10px;
-        height: 10px;
-        background: #313131;
-        border-radius: 9999px;
+        fill: #313131;
     }
 
     .counter-content-3-non-active {
-        display: block;
-        width: 10px;
-        height: 10px;
-        background: #D9D9D9;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        fill: #D9D9D9;
     }
 }
 
-<div class="content-3 golos-text-normal">
-        <span class="header-content-3 merriweather-regular"> Этапы преображения Васюков </span>
-        <span class="subtitle-content-3 golos-text-little"> Будущие источники обогащения васюкинцев </span>
-        <div class="corusel-content-3">
-            <div class="contents-3 content-3-1">
-                <img class="background-content-3-1">
-                <img class="roughness-content-3-1">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 1 </div>
-                </div>
-                <span> Строительство железнодорожной магистрали Москва-Васюки </span>
-            </div>
-            <div class="contents-3 content-3-2">
-                <img class="background-content-3-2">
-                <img class="roughness-content-3-2">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 2 </div>
-                </div>
-                <span> Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов </span>
-            </div>
-            <div class="contents-3 content-3-3">
-                <img class="background-content-3-3">
-                <img class="roughness-content-3-3">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 3 </div>
-                </div>
-                <span> Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет </span>
-            </div>
-            <div class="contents-3 content-3-4">
-                <img class="background-content-3-4">
-                <img class="roughness-content-3-4">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 4 </div>
-                </div>
-                <span> Строительство дворца для турнира </span>
-            </div>
-            <div class="contents-3 content-3-5">
-                <img class="background-content-3-5">
-                <img class="roughness-content-3-5">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 5 </div>
-                </div>
-                <span> Размещение гаражей для гостевого автотранспорта </span>
-            </div>
-            <div class="contents-3 content-3-6">
-                <img class="background-content-3-6">
-                <img class="roughness-content-3-6">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 6 </div>
-                </div>
-                <span> Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов </span>
-            </div>
-            <div class="contents-3 content-3-7">
-                <img class="background-content-3-7">
-                <img class="roughness-content-3-7">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 7 </div>
-                </div>
-                <span> Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн </span>
-            </div>    
-        </div>
-        <img class="image-content-3" src="./img/body/content-3/plane.png" alt="Plane">
-        <div class="buttons-content-3">
-            <button class="prev-button-content-3" id="prev" aria-label="Previous">
-                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" fill="#313131" />
-                <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
-                    stroke-linecap="square" />
-                </svg>
-            </button>
-            <div class="counter-content-3">
-                <svg class="counter-content-3-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-            </div>
-            <button class="next-button-content-3" id="next" aria-label="Next">
-                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" fill="#313131" />
-                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
-                    stroke-linecap="square" />
-                </svg>
-            </button>
-        </div>
-    </div>
-        <span class="header-content-3 merriweather-regular"> Этапы преображения Васюков </span>
-        <span class="subtitle-content-3 golos-text-little"> Будущие источники обогащения васюкинцев </span>
-        <div class="corusel-content-3">
-            <div class="contents-3 content-3-1">
-                <img class="background-content-3-1">
-                <img class="roughness-content-3-1">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 1 </div>
-                </div>
-                <span> Строительство железнодорожной магистрали Москва-Васюки </span>
-            </div>
-            <div class="contents-3 content-3-2">
-                <img class="background-content-3-2">
-                <img class="roughness-content-3-2">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 2 </div>
-                </div>
-                <span> Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов </span>
-            </div>
-            <div class="contents-3 content-3-3">
-                <img class="background-content-3-3">
-                <img class="roughness-content-3-3">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 3 </div>
-                </div>
-                <span> Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет </span>
-            </div>
-            <div class="contents-3 content-3-4">
-                <img class="background-content-3-4">
-                <img class="roughness-content-3-4">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 4 </div>
-                </div>
-                <span> Строительство дворца для турнира </span>
-            </div>
-            <div class="contents-3 content-3-5">
-                <img class="background-content-3-5">
-                <img class="roughness-content-3-5">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 5 </div>
-                </div>
-                <span> Размещение гаражей для гостевого автотранспорта </span>
-            </div>
-            <div class="contents-3 content-3-6">
-                <img class="background-content-3-6">
-                <img class="roughness-content-3-6">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 6 </div>
-                </div>
-                <span> Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов </span>
-            </div>
-            <div class="contents-3 content-3-7">
-                <img class="background-content-3-7">
-                <img class="roughness-content-3-7">
-                <div class="numbers-content-3 golos-text-little-bold">
-                    <div> 7 </div>
-                </div>
-                <span> Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн </span>
-            </div>    
-        </div>
-        <img class="image-content-3" src="./img/body/content-3/plane.png" alt="Plane">
-        <div class="buttons-content-3">
-            <button class="prev-button-content-3" id="prev" aria-label="Previous">
-                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" fill="#313131" />
-                <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
-                    stroke-linecap="square" />
-                </svg>
-            </button>
-            <div class="counter-content-3">
-                <svg class="counter-content-3-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-                <svg class="counter-content-3-non-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5" cy="5" r="5" fill="#313131" />
-                </svg>
-            </div>
-            <button class="next-button-content-3" id="next" aria-label="Next">
-                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" fill="#313131" />
-                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
-                    stroke-linecap="square" />
-                </svg>
-            </button>
-        </div>
-    </div>
+document.addEventListener("DOMContentLoaded", function () {
+    const contents = document.querySelectorAll('.contents-3');
+    const totalItems = contents.length;
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+    const counterDots = document.querySelectorAll('.counter-content-3 svg');
+
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        // Скрываем всех участников и сбрасываем счётчик
+        contents.forEach((content, index) => {
+            content.classList.remove('active');
+            counterDots[index].classList.remove('counter-content-3-active');
+            counterDots[index].classList.add('counter-content-3-non-active');
+        });
+
+        // Показываем один или два элемента в зависимости от индекса
+        if (currentIndex === 0 || currentIndex === 1) {
+            contents[0].classList.add('active');
+            contents[1].classList.add('active');
+            counterDots[0].classList.add('counter-content-3-active');
+            counterDots[1].classList.add('counter-content-3-active');
+        } else if (currentIndex === 2) {
+            contents[2].classList.add('active');
+            counterDots[2].classList.add('counter-content-3-active');
+        } else if (currentIndex === 3 || currentIndex === 4) {
+            contents[3].classList.add('active');
+            contents[4].classList.add('active');
+            counterDots[3].classList.add('counter-content-3-active');
+            counterDots[4].classList.add('counter-content-3-active');
+        } else if (currentIndex === 5) {
+            contents[5].classList.add('active');
+            counterDots[5].classList.add('counter-content-3-active');
+        } else if (currentIndex === 6) {
+            contents[6].classList.add('active');
+            counterDots[6].classList.add('counter-content-3-active');
+        }
+
+        // Обновление состояния кнопок
+        prevButton.disabled = currentIndex === 0;
+        nextButton.disabled = currentIndex >= 6; // 6 - последний возможный индекс
+    }
+
+    prevButton.addEventListener('click', function () {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+    });
+
+    nextButton.addEventListener('click', function () {
+        if (currentIndex < 6) {
+            currentIndex++;
+            updateCarousel();
+        }
+    });
+
+    updateCarousel(); // Инициализация карусели
+});
