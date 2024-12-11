@@ -119,6 +119,8 @@ body, header {
     height: 881px;
     top: -123px;
     overflow: hidden;
+
+    display: flex;
 }
 
 .head-chess {
@@ -129,6 +131,26 @@ body, header {
     transform: translateX(-50%);
     object-fit: cover;
     object-position: center;
+}
+
+.gif-image {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.gif-image.active {
+    opacity: 1;
+    animation: playOnce 1s steps(1) 1;
+}
+
+@keyframes playOnce {
+    0% {
+        content: "";
+    }
+
+    100% {
+        content: "";
+    }
 }
 
 .head-chess-mobile {
