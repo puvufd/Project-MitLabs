@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (currentIndex + itemsPerView < totalItems) {
             currentIndex += itemsPerView;
         } else {
-            currentIndex = 0; // Возврат к первому слайду
+            currentIndex = 0;
         }
         updateCarousel();
     }
@@ -62,10 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
         clearInterval(autoSlideInterval);
     }
 
-    // Запускаем автоматическую смену слайдов
     startAutoSlide();
 
-    // Останавливаем автоматическую смену слайдов при наведении курсора
     document.querySelector('.carousel-participants').addEventListener('mouseenter', stopAutoSlide);
     document.querySelector('.carousel-participants').addEventListener('mouseleave', startAutoSlide);
 

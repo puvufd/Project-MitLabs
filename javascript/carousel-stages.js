@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const contents = document.querySelectorAll('.contents-3');
-    const totalGroups = 5; // 5 групп: [1,2], [3], [4,5], [6], [7]
+    const totalGroups = 5; 
     const prevButton = document.getElementById('prev-content-3');
     const nextButton = document.getElementById('next-content-3');
     const counterDots = document.querySelectorAll('.counter-content-3 svg');
@@ -8,11 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentIndex = 0;
 
     function updateCarousel() {
-        // Скрываем всех участников и сбрасываем счётчик
         contents.forEach(content => content.classList.remove('active'));
         counterDots.forEach(dot => dot.classList.remove('active'));
 
-        // Определяем текущую группу и показываем соответствующие элементы
         switch (currentIndex) {
             case 0:
                 contents[0].classList.add('active');
@@ -33,10 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
         }
 
-        // Обновление состояния счётчика
         counterDots[currentIndex].classList.add('active');
 
-        // Обновление состояния кнопок
         prevButton.disabled = currentIndex === 0;
         nextButton.disabled = currentIndex === totalGroups - 1;
     }
@@ -55,5 +51,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    updateCarousel(); // Инициализация карусели
+    updateCarousel();
 });

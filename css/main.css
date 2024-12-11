@@ -108,7 +108,6 @@ body, header {
     font-size: 16.6513px;
     line-height: 108%;
     text-transform: uppercase;
-    font-feature-settings: 'pnum' on, 'lnum' on;
     color: #595653;
     left: 98.17px;
 }
@@ -265,7 +264,6 @@ body, header {
     font-size: 18px;
     line-height: 130%;
     text-align: center;
-    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 
