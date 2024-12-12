@@ -397,7 +397,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 560px) {
 
     .head {
         height: 774px;
@@ -425,21 +425,7 @@
     }
 
     .head-img {
-        width: 900.01px;
-        height: 812px;
-        top: 0px;
-    }
-
-    .head-chess {
-        display: none;
-    }
-
-    .head-chess-mobile {
-        display: block;
-        position: absolute;
-        width: 375px;
-        height: auto;
-        top: 383.59px;
+        top: -62px;
     }
 
     .content {
@@ -529,6 +515,28 @@
     .footer {
         top: 4322px;
         height: 214px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .head-img {
+        width: 900.01px;
+        height: 812px;
+        top: 0px;
+    }
+
+    .head-chess {
+        display: none;
+    }
+
+    .head-chess-mobile {
+        display: block;
+        position: absolute;
+        width: 375px;
+        height: auto;
+        top: 383.59px;
     }
 
 }
