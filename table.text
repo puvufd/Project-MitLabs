@@ -1,0 +1,148 @@
+<div class="table">
+    <div class="table-titles golos-text-little">
+        <span class="table-title-1"> ... </span>
+        <span class="table-title-2"> ... </span>
+        <span class="table-title-3"> ... </span>
+        <span class="table-title-4"> ... </span>
+        <span class="table-title-5"> ... </span>
+    </div>
+    <div class="table-descriptions">
+        <span class="table-description-1"> ... </span>
+        <span class="table-description-2"> ... </span>
+        <span class="table-description-3"> ... </span>
+        <span class="table-description-4"> ... </span>
+        <span class="last-table-description-5"> ... </span>
+        <span class="table-description-5"> ... </span>
+    </div>
+    <div class="table-vectors">
+        <div class="horizontal-vectors">
+            <svg class="horizontal-vector-1" width="2" height="248" viewBox="0 0 2 248" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 0V248" stroke="#D0D0D0" stroke-width="2" />
+            </svg>
+            <svg class="horizontal-vector-2" width="2" height="248" viewBox="0 0 2 248" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 0V248" stroke="#D0D0D0" stroke-width="2" />
+            </svg>
+            <svg class="horizontal-vector-3" width="2" height="248" viewBox="0 0 2 248" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 0V248" stroke="#D0D0D0" stroke-width="2" />
+            </svg>
+            <svg class="horizontal-vector-4" width="2" height="248" viewBox="0 0 2 248" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 0V248" stroke="#D0D0D0" stroke-width="2" />
+            </svg>
+        </div>
+        <svg class="vertical-vector" width="704" height="2" viewBox="0 0 704 2" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 1H704" stroke="#D0D0D0" stroke-width="2" />
+        </svg>
+        <svg class="red-vector" width="84" height="3" viewBox="0 0 84 3" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.5 1.5L82.5 1.5" stroke="#F54932" stroke-width="2" stroke-linecap="round" />
+        </svg>
+    </div>
+</div>
+
+.table {
+    width: 704px;
+    height: 248px;
+    left: 545.50px;
+    top: 254px;
+    position: absolute;
+}
+
+.table-titles, .table-descriptions {
+    height: 248px;
+    position: absolute;
+}
+
+.table-titles {
+    width: 290px;
+}
+
+.table-descriptions {
+    width: 382px;
+    left: 322px;
+}
+
+.table-titles span, .table-descriptions span {
+    position: absolute;
+    font-size: 20px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.table-titles span {
+    opacity: 0.70;
+}
+
+.table-title-2, .table-description-2 {
+    top: 56px;
+    position: absolute;
+}
+
+.table-title-3, .table-description-3 {
+    top: 112px;
+}
+
+.table-title-4, .table-description-4 {
+    top: 168px;
+}
+
+.table-title-5, .table-description-5, .last-table-description-5 {
+    top: 224px;
+}
+
+.table-description-5 {
+    left: 94px;
+}
+
+.table-vectors {
+    width: 704px;
+    height: 248px;
+    position: absolute;
+}
+
+.horizontal-vectors {
+    height: 168px;
+    top: 40px;
+    position: absolute;
+}
+
+.horizontal-vectors svg {
+    width: 704px;
+    border: 2px #D0D0D0 solid;
+    position: absolute;
+    left: 0px;
+    height: 0px;
+}
+
+.horizontal-vector-2 {
+    top: 56px;
+}
+
+.horizontal-vector-3 {
+    top: 112px;
+}
+
+.horizontal-vector-4 {
+    top: 168px;
+}
+
+.red-vector {
+    width: 81px;
+    height: 0px;
+    left: 320.50px;
+    top: 238.50px;
+    position: absolute;
+    border: 2px #F54932 solid;
+}
+
+.vertical-vector {
+    width: 0px;
+    height: 248px;
+    left: 306px;
+    position: absolute;
+    border: 2px #D0D0D0 solid;
+}
