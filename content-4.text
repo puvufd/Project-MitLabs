@@ -1,0 +1,258 @@
+.content-4 {
+    width: 1222px;
+    position: absolute;
+    height: 600px;
+    top: 2665px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-content-4 {
+    font-size: 54px;
+    text-transform: uppercase;
+    line-height: 64.80px;
+}
+
+.buttons-content-4 {
+    width: 151px;
+    left: 1063px;
+    top: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.prev-button, .next-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.prev-button svg, .next-button svg {
+    fill: #313131;
+}
+
+.prev-button:disabled svg, .next-button:disabled svg {
+    fill: #D6D6D6;
+    cursor: default;
+}
+
+.prev-button:not(:disabled):hover svg, .next-button:not(:disabled):hover svg {
+    fill: #FBCE51;
+}
+
+.counter span {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.carousel-participants {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    top: 62.5px;
+    position: relative;
+}
+
+.participants {
+    width: 394px;
+    height: auto;
+    margin-right: 20px;
+    flex: 0 0 auto;
+    display: none;
+}
+
+.participants.active {
+    display: block;
+}
+
+.avatar {
+    width: 320px;
+    height: 320px;
+    background: #424241;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.names-participants {
+    font-size: 24px;
+    line-height: 28.80px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.achievements-participants {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center; 
+    opacity: 0.60;
+    display: block;
+    margin-top: 10px;
+}
+
+.more-detailed-practicant {
+    text-align: center;
+    display: block;
+    padding: 12px;
+    border-radius: 62px;
+    border: 1px #3057A2 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 17px;
+    margin-left: calc(50% - 113px/2 + 0.5px);
+    margin-right: calc(50% - 113px/2 + 0.5px);
+    text-decoration: none;
+}
+
+.more-detailed-practicant span {
+    color: #3057A2;
+    font-size: 16px;
+    line-height: 19.20px;
+    pointer-events: none;
+}
+
+
+<div class="content-4">
+    <span class="header-content-4"> ... </span>
+    <div class="buttons-content-4">
+        <button class="prev-button" id="prev" aria-label="Previous">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" />
+                <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
+                    stroke-linecap="square" />
+            </svg>
+        </button>
+        <div class="counter">
+            <span>1/6</span>
+        </div>
+        <button class="next-button" id="next" aria-label="Next">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" />
+                <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
+                    stroke-linecap="square" />
+            </svg>
+        </button>
+    </div>
+    <div class="carousel-participants">
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="content-4">
+    <span class="header-content-4"> ... </span>
+    <div class="buttons-content-4">
+        <button class="prev-button" id="prev" aria-label="Previous">
+            <span class="icon prev-icon"></span>
+        </button>
+        <div class="counter">
+            <span>1/6</span>
+        </div>
+        <button class="next-button" id="next" aria-label="Next">
+            <span class="icon next-icon"></span>
+        </button>
+    </div>
+    <div class="carousel-participants">
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+        <div class="participants">
+            <img class="avatar" src="...">
+            <span class="names-participants"> ... </span>
+            <span class="achievements-participants"> ... </span>
+            <a class="more-detailed-practicant" href="#">
+                <span> ... </span>
+            </a>
+        </div>
+    </div>
+</div>

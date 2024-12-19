@@ -36,10 +36,10 @@
                 </div>
                 <span class="title-description golos-text-little"> Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам </span>
                 <div class="btns golos-text-normal">
-                    <button class="button-1" onclick="scrollToDiv('content-1')">
+                    <button class="buttons" onclick="scrollToDiv('content-1')">
                         <span> Поддержать шахматную мысль </span>
                     </button>
-                    <button class="button-2" onclick="scrollToDiv('content-3')">
+                    <button class="buttons" onclick="scrollToDiv('content-3')">
                         <span> Подробнее о турнире </span>
                     </button>
                 </div>
@@ -123,45 +123,45 @@
             <div class="stages">
                 <div class="carusel-content-3">
                     <div class="contents-3 content-3-1">
-                        <img class="background-content-3-1">
-                        <img class="roughness-content-3-1">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 1 </div>
                         <span> Строительство железнодорожной магистрали Москва-Васюки </span>
                     </div>
                     <div class="contents-3 content-3-2">
-                        <img class="background-content-3-2">
-                        <img class="roughness-content-3-2">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 2 </div>
                         <span> Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов </span>
                     </div>
                     <div class="contents-3 content-3-3">
-                        <img class="background-content-3-3">
-                        <img class="roughness-content-3-3">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 3 </div>
                         <span> Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
                             шоколадных конфет </span>
                     </div>
                     <div class="contents-3 content-3-4">
-                        <img class="background-content-3-4">
-                        <img class="roughness-content-3-4">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 4 </div>
                         <span> Строительство дворца для турнира </span>
                     </div>
                     <div class="contents-3 content-3-5">
-                        <img class="background-content-3-5">
-                        <img class="roughness-content-3-5">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 5 </div>
                         <span> Размещение гаражей для гостевого автотранспорта </span>
                     </div>
                     <div class="contents-3 content-3-6">
-                        <img class="background-content-3-6">
-                        <img class="roughness-content-3-6">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 6 </div>
                         <span> Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов </span>
                     </div>
                     <div class="contents-3 content-3-7">
-                        <img class="background-content-3-7">
-                        <img class="roughness-content-3-7">
+                        <img class="background-contents-3">
+                        <img class="roughness-contents-3">
                         <div class="numbers-content-3 golos-text-little-bold"> 7 </div>
                         <span> Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн </span>
                     </div>
@@ -206,26 +206,21 @@
         </div>
         
         <div class="content-4">
-            <span class="header-content-4 merriweather-regular"> Участники турнира </span>
-            <div class="buttons-content-4 golos-text-little">
-                <button class="prev-button" id="prev" aria-label="Previous">
-                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" />
-                        <path d="M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2"
-                            stroke-linecap="square" />
-                    </svg>
-                </button>
-                <div class="counter">
-                    <span>1/6</span>
+            <div class="head-content-4">
+                <span class="header-content-4 merriweather-regular"> Участники турнира </span>
+                <div class="buttons-content-4 golos-text-little">
+                    <button class="prev-button" id="prev" aria-label="Previous">
+                        <span class="icon prev-icon"></span>
+                    </button>
+                    <div class="counter">
+                        <span>1/6</span>
+                    </div>
+                    <button class="next-button" id="next" aria-label="Next">
+                        <span class="icon next-icon"></span>
+                    </button>
                 </div>
-                <button class="next-button" id="next" aria-label="Next">
-                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="22" cy="22" r="22" />
-                        <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" stroke="white" stroke-width="2"
-                            stroke-linecap="square" />
-                    </svg>
-                </button>
             </div>
+
             <div class="carousel-participants">
                 <div class="participants">
                     <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">

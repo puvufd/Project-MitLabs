@@ -1,0 +1,155 @@
+<div class="content-3">
+    <span class="header-content-3"> ... </span>
+    <span class="subtitle-content-3"> ... </span>
+    <div>
+        <div class="contents-3 content-3-1">
+            <div class="numbers-content-3"> 1 </div>
+            <span> ... </span>
+        </div>
+        <div class="contents-3 content-3-2">
+            <div class="numbers-content-3"> 2 </div>
+            <span> ... </span>
+        </div>
+        <div class="contents-3 content-3-3">
+            <div class="numbers-content-3"> 3 </div>
+            <span> ... </span>
+        </div>
+        <div class="contents-3 content-3-4">
+            <div class="numbers-content-3"> 4 </div>
+            <span> ... </span>
+        </div>
+        <div class="contents-3 content-3-5">
+            <div class="numbers-content-3"> 5 </div>
+            <span> ... </span>
+        </div>
+        <div class="contents-3 content-3-6">
+            <div class="numbers-content-3"> 6 </div>
+            <span> ... </span>
+        </div>
+        <div class="contents-3 content-3-7">
+            <div class="numbers-content-3"> 7 </div>
+            <span> ... </span>
+        </div>
+    </div>
+</div>
+
+/*
+.content-3 {
+position: absolute;
+width: 1284.36px;
+height: 585.91px;
+top: 1881px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.header-content-3 {
+width: 806px;
+position: absolute;
+font-size: 54px;
+text-transform: uppercase;
+line-height: 64.80px;
+word-wrap: break-word;
+}
+
+.subtitle-content-3 {
+width: 280px;
+left: 301px;
+top: 72px;
+position: absolute;
+color: #3057A2;
+font-size: 20px;
+line-height: 24px;
+word-wrap: break-word;
+}
+
+.content-3-1, .content-3-2, .content-3-3, .content-3-4, .content-3-5, .content-3-6, .content-3-7 {
+position: absolute;
+overflow: hidden;
+}
+
+.content-3-1 {
+width: 394px;
+height: 112px;
+top: 184px;
+}
+
+.content-3-2 {
+width: 394px;
+height: 112px;
+left: 414px;
+top: 184px;
+}
+
+.content-3-3 {
+width: 394px;
+height: 244px;
+left: 828px;
+top: 184px;
+}
+
+.content-3-4 {
+width: 394px;
+height: 112px;
+top: 316px;
+}
+
+.content-3-5 {
+width: 394px;
+height: 112px;
+left: 414px;
+top: 316px;
+}
+
+.content-3-6 {
+width: 394px;
+height: 136px;
+top: 448px;
+background: #D9D9D9;
+}
+
+.content-3-7 {
+width: 808px;
+height: 136px;
+left: 414px;
+top: 448px;
+background: #D9D9D9;
+}
+
+.numbers-content-3 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+isolation: isolate;
+position: absolute;
+width: 36px;
+height: 36px;
+left: 20px;
+top: 20px;
+background: #FFFFFF;
+border-radius: 60px;
+font-size: 20px;
+line-height: 24px;
+}
+
+.content-3-1 span, .content-3-2 span, .content-3-3 span, .content-3-4 span, .content-3-5 span, .content-3-6 span,
+.content-3-7 span {
+left: 72px;
+top: 20px;
+position: absolute;
+font-size: 20px;
+line-height: 24px;
+word-wrap: break-word;
+}
+
+.content-3-1 span, .content-3-2 span, .content-3-3 span, .content-3-4 span, .content-3-5 span, .content-3-6 span {
+width: 302px;
+}
+
+.content-3-7 span {
+width: 446px;
+}
+*/
