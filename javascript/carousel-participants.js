@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const participants = document.querySelectorAll('.participants');
     const totalItems = participants.length;
-    const counterElement = document.querySelector('.counter span');
+    const counterElement = document.querySelector('.counter');
     const prevButton = document.getElementById('prev');
     const nextButton = document.getElementById('next');
 

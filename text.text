@@ -1,0 +1,149 @@
+    .content-1 {
+        width: 336px;
+        height: 565px;
+        top: 860px;
+    }
+
+    .header-content-1 {
+        width: 335px;
+        height: 565px;
+        left: 1px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .header-content-1 div {
+        top: 413px;
+        position: absolute;
+    }
+
+    .image-content-1 {
+        width: 335px;
+        height: 212.56px;
+        left: 0px;
+        top: 176px;
+        position: absolute;
+    }
+
+    .content-2 {
+        width: 336px;
+        height: 1174px;
+        top: 1459px;
+    }
+
+    .header-content-2 {
+        width: 335px;
+        left: 1px;
+        top: 426px;
+    }
+
+    .span-1-content-1, .span-2-content-1, .span-3-content-1, .header-content-2 span {
+        font-size: 28px;
+        line-height: 37.80px;
+    }
+
+    .table {
+        width: 336px;
+        height: 392px;
+        left: 0px;
+        top: 698px;
+    }
+
+    .table-titles, .table-descriptions {
+        height: 356px;
+        left: 1px;
+    }
+
+    .table-descriptions {
+        width: 268px;
+        top: 36px;
+    }
+
+    .table-title-2, .table-description-2 {
+        top: 92px;
+    }
+
+    .table-title-3, .table-description-3 {
+        top: 184px;
+    }
+
+    .table-title-4 {
+        top: 276px;
+    }
+
+    .table-description-4 {
+        top: 240px;
+        left: 173px;
+    }
+
+    .table-title-5, .table-description-5, .last-table-description-5 {
+        top: 332px;
+    }
+
+    .note-content-2 {
+        width: 335px;
+        left: 1px;
+        top: 1130px;
+        font-size: 18px;
+        line-height: 21.60px;
+    }
+
+    .image-content-2 {
+        width: 335px;
+        height: 402px;
+        left: 1px;
+    }
+
+    .image-1-content-2 {
+        width: 373.86px;
+        height: 460.11px;
+        left: -19.43px;
+        top: 0.34px;
+    }
+
+    .roughness-content-2 {
+        width: 420px;
+        height: 374px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1513px;
+    }
+
+    .table-vectors {
+        width: 336px;
+        height: 306px;
+        top: 76px;
+    }
+
+    .horizontal-vectors {
+        width: 335px;
+        height: 240px;
+        left: 1px;
+        top: 0px;
+    }
+
+    .horizontal-vectors svg {
+        width: 335px;
+    }
+
+    .horizontal-vector-2 {
+        top: 92px;
+    }
+
+    .horizontal-vector-3 {
+        top: 184px;
+    }
+
+    .horizontal-vector-4 {
+        top: 240px;
+    }
+
+    .red-vector {
+        width: 87px;
+        left: 0px;
+        top: 306px;
+    }
+
+    .vertical-vector {
+        display: none;
+    }

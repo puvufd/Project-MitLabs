@@ -256,3 +256,17 @@
         </div>
     </div>
 </div>
+
+...
+<div class="buttons-content-4">
+    <button class="prev-button" id="prev" aria-label="Previous">
+        <span class="icon prev-icon"></span>
+    </button>
+    <div class="counter">
+        <span>1/6</span>
+    </div>
+    <button class="next-button" id="next" aria-label="Next">
+        <span class="icon next-icon"></span>
+    </button>
+</div>
+...
