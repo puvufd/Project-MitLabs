@@ -465,7 +465,6 @@ main {
 
 .contents-3:nth-child(6) {
     height: 8.5rem;
-    display: flex;
     margin-left: -67.46%;
 }
 
@@ -609,32 +608,30 @@ main {
     display: none;
 }
 
-/*
-    .prev-button-content-3, .next-button-content-3 {
-        background: none;
-        border: none;
-        cursor: pointer;
-        display: flex;
-    }
+.prev-button-content-3, .next-button-content-3 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
 
-    .prev-button-content-3 svg, .next-button-content-3 svg {
-        fill: #313131;
-    }
+.prev-button-content-3 svg, .next-button-content-3 svg {
+    fill: #313131;
+}
 
-    .prev-button-content-3:disabled svg, .next-button-content-3:disabled svg {
-        fill: #D6D6D6;
-        cursor: default;
-    }
+.prev-button-content-3:disabled svg, .next-button-content-3:disabled svg {
+    fill: #D6D6D6;
+    cursor: default;
+}
 
-    .prev-button-content-3:not(:disabled):hover svg, .next-button-content-3:not(:disabled):hover svg {
-        fill: #FBCE51;
-    }
+.prev-button-content-3:not(:disabled):hover svg, .next-button-content-3:not(:disabled):hover svg {
+    fill: #FBCE51;
+}
 
-    .counter span {
-        font-size: 16px;
-        line-height: 120%;
-    }
-*/
+.counter span {
+    font-size: 16px;
+    line-height: 120%;
+}
 
 .counter-content-3-active {
     width: 10px;

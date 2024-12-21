@@ -147,3 +147,101 @@
     .vertical-vector {
         display: none;
     }
+
+
+
+        
+<div class="content-3">
+    <span class="header-content-3"> ... </span>
+    <span class="subtitle-content-3"> ... </span>
+    <div class="stages">
+        <div class="carousel-content-3">
+            <div class="contents-3">
+                ...
+            </div>
+            <div class="contents-3">
+                ...
+            </div>
+            <div class="contents-3">
+                ...
+            </div>
+            <div class="contents-3">
+                ...
+            </div>
+            <div class="contents-3">
+                ...
+            </div>
+            <div class="contents-3">
+                ...
+            </div>
+            <div class="contents-3">
+                ...
+            </div>
+        </div>
+        <img class="background-stages">
+        <img class="roughness-stages">
+    </div>
+    <img class="image-content-3" src="./img/body/content-3/plane.png" alt="Plane">
+</div>
+
+    .content-3 {
+        margin: 120px auto 100px auto;
+    }
+
+    .header-content-3 {
+        max-width: 100%;
+        font-size: 36px;
+        line-height: 39.60px;
+    }
+
+    .subtitle-content-3 {
+        max-width: 100%;
+        margin-top: 12px;
+        position: relative;
+        font-size: 18px;
+        line-height: 21.60px;
+    }
+
+    .image-content-3 {
+        position: absolute;
+        transform-origin: 0 0;
+
+        width: 335px;
+        height: 182px;
+        margin-left: 0px;
+        margin-top: 196px;
+    }
+
+    .stages {
+        background: #D9D9D9;
+        margin-top: 148px;
+
+        display: flex;
+        height: 300px;
+    }
+
+    .carousel-content-3 {
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+    }
+
+    .contents-3 {
+        flex: auto;
+        flex-shrink: 0;
+        display: none;
+        margin-top: 62px;
+        height: auto;
+        min-width: 335px; 
+    }
+
+    .contents-3.active {
+        display: block;
+    }
+
+    .contents-3:nth-child(2) {
+        margin-top: 28px;
+    }
+
+    .contents-3:nth-child(5) {
+        margin-top: 28px;
+    }

@@ -112,7 +112,6 @@
 
     .content-3 {
         margin: 120px auto 100px auto;
-        overflow: hidden;
     }
 
     .header-content-3 {
@@ -139,28 +138,9 @@
         margin-top: 196px;
     }
 
-    .stages {
-        background: #D9D9D9;
-        overflow: hidden;
-        margin-top: 148px;
-
-        display: flex;
-        max-height: 300px;
-    }
-
-    .carousel-content-3 {
-        transition: transform 0.5s ease-in-out;
-        overflow: hidden;
-        width: 100%;
-        margin-top: 0;
-
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: space-around;
-    }
-
     .background-stages {
         position: absolute;
+        display: block;
         width: 448px;
         height: 886px;
         margin-left: -28px;
@@ -171,7 +151,6 @@
         pointer-events: none;
         transform-origin: 0 0; 
         box-shadow: 5px 4px 12.699999809265137px rgba(0, 0, 0, 0.25); 
-
         overflow: hidden;
     }
 
@@ -188,6 +167,98 @@
         overflow: hidden;
     }
 
+    .stages {
+        background: #D9D9D9;
+        margin-top: 148px;
+        position: relative;
+
+        display: flex;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .carousel-content-3 {
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+    }
+
+    .contents-3 {
+        flex: auto;
+        flex-shrink: 0;
+        display: none;
+        margin-top: 62px;
+        height: auto;
+        min-width: 335px; 
+        background: #D9D9D9;
+    }
+
+    .contents-3.active {
+        display: block;
+    }
+
+    .contents-3:nth-child(2) {
+        margin-top: 28px;
+    }
+
+    .contents-3:nth-child(5) {
+        margin-top: 28px;
+    }
+
+    .numbers-content-3 {
+        margin-left: 0;
+        margin-top: 0px;
+        display: inline-flex;
+    }
+
+    .contents-3 span {
+        max-width: 239px;
+        margin: 0 0 0 52px;
+        font-size: 18px;
+        line-height: 21.60px;
+    }
+
+    .contents-3:last-child span {
+        max-width: 243px;    
+        margin: 0 0 0 52px;
+    }
+
+    .buttons-content-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 652px;
+    }
+
+    .prev-button-content-3, .next-button-content-3 {
+        width: 44px;
+        height: 44px;
+    }
+
+    .counter-content-3 {
+        display: flex;
+        gap: 6px;
+    }
+
+    .counter-content-3 svg {
+        fill: #D9D9D9;
+    }
+
+    .counter-content-3 .active {
+        fill: #313131;
+    }
+
+    .background-contents-3 {
+        display: none;
+    }
+
+    .roughness-contents-3 {
+        display: none;
+    }
+
     /*
     .contents-3 {
         box-sizing: border-box;
@@ -198,193 +269,6 @@
         height: 7rem;
     }
     */
-
-    .contents-3 {
-        flex: auto;
-        min-width: 335px;
-        flex-shrink: 0;
-        display: none;
-        margin: 0;
-
-        height: 300px;
-    }
-
-    .contents-3.active {
-        display: block;
-    }
-
-    .numbers-content-3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 2.25rem;
-        height: 2.25rem;
-        background: #FFFFFF;
-        border-radius: 50%;
-        font-size: 1.25rem;
-        line-height: 1.2;
-        position: absolute;
-        margin-top: 1rem;
-        margin-left: 1rem;
-    }
-
-    .contents-3 span {
-        position: absolute;
-        margin: 3.83% 0 0 17.23%;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-        word-wrap: break-word;
-        max-width: 72.34%;
-    }
-
-    .contents-3:last-child span {
-        max-width: 48.1%;    
-        margin: 1.85% 0 0 8.33%;
-    }
-
-    .background-contents-3 {
-        position: absolute;
-        transform: rotate(-90deg);
-        transform-origin: 0 0;
-        opacity: 0.80;
-        box-shadow: 0.3125rem 0.25rem 0.793749988rem rgba(0, 0, 0, 0.25);
-        pointer-events: none;
-    }
-
-    .background-contents-3:nth-child(1) {
-        width: 22.3125rem;
-        height: 44rem;
-        margin-left: -2rem;
-        margin-top: 18.125rem;
-        background: url(../img/body/content-3/background\(1\,4\).png);
-    }
-
-    .background-contents-3:nth-child(2) {
-        width: 21.875rem;
-        height: 43.125rem;
-        left: -16.7rem;
-        top: 17.9375rem;
-        background: url(../img/body/content-3/background\(2\,3\,5\).png);
-    }
-
-    .background-contents-3:nth-child(3) {
-        width: 21.875rem;
-        height: 43.125rem;
-        margin-left: -16rem;
-        margin-top: 18.830625rem;
-        background: url(../img/body/content-3/background\(2\,3\,5\).png);
-    }
-
-    .background-contents-3:nth-child(4) {
-        width: 22.3125rem;
-        height: 44rem;
-        margin-left: -8.0625rem;
-        margin-top: 17.625rem;
-        background: url(../img/body/content-3/background\(1\,4\).png);
-    }
-
-    .background-contents-3:nth-child(5) {
-        width: 21.875rem;
-        height: 43.125rem;
-        margin-left: -7.0625rem;
-        margin-top: 13.6875rem;
-        background: url(../img/body/content-3/background\(2\,3\,5\).png);
-    }
-
-    .background-contents-3:nth-child(6) {
-        width: 34.46rem;
-        height: 55.375rem;
-        margin-left: -6.125rem;
-        margin-top: 21.8125rem;
-        background: url(../img/body/content-3/background\(6\,7\).png);
-    }
-
-    .background-contents-3:nth-child(1) {
-        width: 28rem;
-        height: 55.375rem;
-        margin-left: -1.2rem;
-        margin-top: 21.8125rem;
-        background: url(../img/body/content-3/background\(6\,7\).png);
-    }
-
-    .roughness-contents-3 {
-        margin-top: -6.625rem;
-        position: absolute;
-        mix-blend-mode: color-burn;
-        pointer-events: none;
-        overflow: hidden;
-    }
-
-    .roughness-contents-3:nth-child(-n+5) {
-        width: 66.625rem;
-        height: 30.5625rem;
-        left: -15.125rem;
-        background-image: url(../img/body/content-3/roughness\(1\,2\,3\,4\,5\,7\).png);
-    }
-
-    .roughness-contents-3:nth-child(6){
-        width: 54rem;
-        height: 24.75rem;
-        margin-left: -18.75rem;
-        background-image: url(../img/body/content-3/roughness\(6\).png);
-    }
-
-    .roughness-contents-3:nth-child(7) {
-        width: 66.625rem;
-        height: 30.5625rem;
-        margin-left: -14.0625rem;
-        background-image: url(../img/body/content-3/roughness\(1\,2\,3\,4\,5\,7\).png);
-    }
-
-    .buttons-content-3 {
-        display: none;
-    }
-
-    /*
-        .prev-button-content-3, .next-button-content-3 {
-            background: none;
-            border: none;
-            cursor: pointer;
-            display: flex;
-        }
-
-        .prev-button-content-3 svg, .next-button-content-3 svg {
-            fill: #313131;
-        }
-
-        .prev-button-content-3:disabled svg, .next-button-content-3:disabled svg {
-            fill: #D6D6D6;
-            cursor: default;
-        }
-
-        .prev-button-content-3:not(:disabled):hover svg, .next-button-content-3:not(:disabled):hover svg {
-            fill: #FBCE51;
-        }
-
-        .counter span {
-            font-size: 16px;
-            line-height: 120%;
-        }
-    */
-
-    /*
-    .counter-content-3-active {
-        width: 10px;
-        height: 10px;
-        background: #313131;
-        border-radius: 9999px;
-    }
-
-    .counter-content-3-non-active {
-        width: 10px;
-        height: 10px;
-        background: #D9D9D9;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-
-    /* Content 4 */
 
     /*
     .content-4 {
@@ -665,35 +549,6 @@
         left: 0px;
         top: 0px;
         display: inline-flex;
-    }
-
-    .buttons-content-3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 652px;
-    }
-
-    .prev-button-content-3, .next-button-content-3 {
-        width: 44px;
-        height: 44px;
-    }
-
-    .counter-content-3 {
-        display: flex;
-        gap: 6px;
-    }
-
-    .counter-content-3 svg {
-        fill: #D9D9D9;
-    }
-
-    .counter-content-3 .active {
-        fill: #313131;
     }
 
     .background-content-3-1, .background-content-3-2, .background-content-3-3, .background-content-3-4, .background-content-3-5, .background-content-3-6, .background-content-3-7 {
