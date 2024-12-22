@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const totalGroups = 5; 
     const prevButton = document.getElementById('prev-content-3');
     const nextButton = document.getElementById('next-content-3');
-    const counterDots = document.querySelectorAll('.counter-content-3 svg');
+    const counterDots = document.querySelectorAll('.counter-content-3 span');
 
     let currentIndex = 0;
 
