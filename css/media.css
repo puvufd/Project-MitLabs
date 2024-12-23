@@ -131,8 +131,7 @@
     .image-content-3 {
         width: 20.9375rem;
         height: 11.375rem;
-        margin-left: 0;
-        margin-top: 18.943%;
+        margin: 12.25rem 0 0 0;
     }
 
     .stages {
@@ -255,7 +254,7 @@
     }
 
     .content-4 {
-        padding-bottom: 8.204%;
+        padding-bottom: 5.875rem;
     }
 
     .header-content-4 {
@@ -268,7 +267,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        margin: 52.735% 0 0 0.684%;
+        margin: 34.25rem 0 0 0.684%;
     }
 
     .carousel-participants {
@@ -373,24 +372,31 @@
     .buttons span {
         font-size: 1rem;
         line-height: 1.3;
-        word-wrap: break-word;
     }
 
     .running-line-wrapper, .running-line-wrapper-lower {
-        height: 38px;
-        padding: 10px 12px; 
+        height: 2.375rem; 
         display: flex;
+        padding: 0.625rem 0;
+        flex-wrap: wrap;
         align-items: center;
     }
 
     .running-line span, .running-line-lower span {
-        font-size: 16px;
-        line-height: 110%;
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+
+    .roughness-content-2 {
+        width: 375px;
     }
 
     .footer {
-        top: 4322px;
-        height: 214px;
+        padding: 7.143% 0 10.715% 0;
+    }
+
+    .footer span {
+        margin: 0 3.572%;
     }
 
 }
@@ -398,9 +404,7 @@
 @media (max-width: 375px) {
 
     .head-img {
-        width: 900.01px;
-        height: 812px;
-        top: 0px;
+        top: 0;
     }
 
     .head-chess {
@@ -410,9 +414,8 @@
     .head-chess-mobile {
         display: block;
         position: absolute;
-        width: 375px;
-        height: auto;
-        top: 383.59px;
+        width: 100%;
+        top: 39.378%;
     }
 
 }

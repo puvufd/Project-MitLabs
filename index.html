@@ -16,7 +16,7 @@
 
 <body class="body golos-text-normal">
 
-    <header class="head background">
+    <header class="background">
     
         <div>
             <div class="logo golos-text-bold">
@@ -24,9 +24,9 @@
                 <span class="logo-span"> Клуб <!-- четырех коней --> </span>
             </div>
             <div class="head-img">
-                <img class="head-chess" src="./img/head/chess.png" alt="Chess in city">
-                <img class="head-roughness" src="./img/head/roughness.png">
-                <img class="head-chess-mobile" src="./img/head/chess-mobile.png" alt="Chess">
+                <img class="head-chess hero-image" src="./img/head/chess.png" alt="Chess in city">
+                <div class="head-roughness"></div>
+                <img class="head-chess-mobile hero-image" src="./img/head/chess-mobile.png" alt="Chess">
             </div>
             <div class="content">
                 <div class="headline merriweather-regular">
@@ -77,11 +77,11 @@
                     <span class="red-text merriweather-bold"> «Плодотворная дебютная идея» </span>
                 </div>
             </div>
-            <img class="image-content-1" src="./img/body/content-1/chess-players.png" alt="Chess players">
+            <img class="image-content-1 image-slide-right" src="./img/body/content-1/chess-players.png" alt="Chess players">
         </div>
         
         <div class="content-2">
-            <div class="image-content-2">
+            <div class="image-content-2 image-slide-left">
                 <img class="image-1-content-2" src="./img/body/content-2/chess-player.png" alt="Chess player">
             </div>
             <div class="content-content-2">
@@ -115,7 +115,7 @@
                 <span class="note-content-2 golos-text-little"> По всем вопросам обращаться в администрацию к К. Михельсону </span>                
             </div>
         </div>
-        <img class="roughness-content-2" src="./img/body/content-2/roughness.png">
+        <div class="roughness-content-2"></div>
         
         <div class="content-3 golos-text-normal" id="content-3">
             <span class="header-content-3 merriweather-regular"> Этапы преображения Васюков </span>
@@ -123,53 +123,53 @@
             <div class="stages">
                 <div class="carousel-content-3">
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 1 </div>
                         <span> Строительство железнодорожной магистрали Москва-Васюки </span>
                     </div>
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 2 </div>
                         <span> Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов </span>
                     </div>
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 3 </div>
                         <span> Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
                             шоколадных конфет </span>
                     </div>
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 4 </div>
                         <span> Строительство дворца для турнира </span>
                     </div>
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 5 </div>
                         <span> Размещение гаражей для гостевого автотранспорта </span>
                     </div>
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 6 </div>
                         <span> Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов </span>
                     </div>
                     <div class="contents-3">
-                        <img class="background-contents-3">
-                        <img class="roughness-contents-3">
+                        <div class="background-contents-3"></div>
+                        <div class="roughness-contents-3"></div>
                         <div class="numbers-content-3 golos-text-little-bold"> 7 </div>
                         <span> Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн </span>
                     </div>
                 </div>
-                <img class="background-stages">
-                <img class="roughness-stages">
+                <div class="background-stages"></div>
+                <div class="roughness-stages"></div>
             </div>
-            <img class="image-content-3" src="./img/body/content-3/plane.png" alt="Plane">
+            <img class="image-content-3 image-animate" src="./img/body/content-3/plane.png" alt="Plane">
             <div class="buttons-content-3">
                 <button class="prev-button-content-3" id="prev-content-3" aria-label="Previous">
                 </button>
@@ -274,6 +274,7 @@
 
 </body>
 
+<script src="./javascript/animates.js"></script>
 <script>
     function scrollToDiv(id) {
         document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
