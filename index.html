@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>КЛУБ ЧЕТЫРЕХ КОНЕЙ</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 
@@ -19,7 +19,7 @@
     <header class="background">
     
         <div>
-            <div class="logo golos-text-bold">
+            <div class="logo">
                 <img class="logo-img" src="./img/head/logo.png" alt="Logo">
                 <span class="logo-span"> Клуб <!-- четырех коней --> </span>
             </div>
@@ -34,22 +34,26 @@
                     <span class="headline-span-2"> в столицу </span>
                     <span class="headline-span-3"> земного шара </span>
                 </div>
-                <span class="title-description golos-text-little"> Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам </span>
-                <div class="btns golos-text-normal">
-                    <button class="buttons" onclick="scrollToDiv('content-1')">
+                <span class="title-description"> Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам </span>
+                <div class="btns">
+                    <a class="buttons-a" href="#">
+                        <button class="buttons" onclick="scrollToDiv('content-1')">
                         <span> Поддержать шахматную мысль </span>
-                    </button>
-                    <button class="buttons" onclick="scrollToDiv('content-3')">
-                        <span> Подробнее о турнире </span>
-                    </button>
+                        </button>                    
+                    </a>
+                    <a class="buttons-a" href="#">
+                        <button class="buttons" onclick="scrollToDiv('content-3')">
+                            <span> Подробнее о турнире </span>
+                        </button>                        
+                    </a>
                 </div>
             </div>
         </div>
     
     </header>
 
-    <div class="running-line-wrapper">
-        <div class="running-line upper-line merriweather-regular">
+    <div class="running-line-wrapper merriweather-regular">
+        <div class="running-line upper-line ">
             <span> Дело помощи утопающим — дело рук самих утопающих! </span>
             <span class="point"></span>
             <span> Шахматы двигают вперёд не только культуру, но и экономику! </span>
@@ -57,7 +61,7 @@
             <span> Лёд тронулся, господа присяжные заседатели! </span>
             <span class="point"></span>
         </div>
-        <div class="running-line upper-line merriweather-regular">
+        <div class="running-line upper-line">
             <span> Дело помощи утопающим — дело рук самих утопающих! </span>
             <span class="point"></span>
             <span> Шахматы двигают вперёд не только культуру, но и экономику! </span>
@@ -69,185 +73,127 @@
 
     <main>
 
-        <div class="content-1" id="content-1">
-            <div class="header-content-1">
-                <span class="merriweather-regular"> Чтобы поддержать Международный васюкинский турнир </span>
-                <div>
-                    <span class="merriweather-regular"> посетите лекцию на тему: </span>
-                    <span class="red-text merriweather-bold"> «Плодотворная дебютная идея» </span>
+        <div class="main-content">
+            <div class="content-1" id="content-1">
+                <div class="header-content-1 merriweather-regular">
+                    <span> Чтобы поддержать Международный васюкинский турнир </span>
+                    <div>
+                        <span> посетите лекцию на тему: </span>
+                        <span class="red-text"> «Плодотворная дебютная идея» </span>
+                    </div>
+                </div>
+                <img class="image-content-1 image-slide-right" src="./img/body/content-1/chess-players.png" alt="Chess players">
+            </div>
+            <div class="content-2">
+                <div class="image-content-2 image-slide-left">
+                    <img class="image-1-content-2" src="./img/body/content-2/chess-player.png" alt="Chess player">
+                </div>
+                <div class="content-content-2">
+                    <div class="header-content-2 merriweather-regular">
+                        <span> и Сеанс </span>
+                        <span class="red-text"> одновременной игры в шахматы на 160 досках </span>
+                        <span> гроссмейстера О. Бендера </span>
+                    </div>
+                        <table class="table">
+                            <tr>
+                                <td> Место проведения: </td>
+                                <td> Клуб «Картонажник» </td>
+                            </tr>
+                            <tr>
+                                <td> Дата и время мероприятия: </td>
+                                <td> 22 июня 1927 г. в 18:00 </td>
+                            </tr>
+                            <tr>
+                                <td> Стоимость входных билетов: </td>
+                                <td> 20 коп. </td> 
+                            </tr>
+                            <tr>
+                                <td> Плата за игру: </td>
+                                <td> 50 коп. </td>
+                            </tr>
+                            <tr>
+                                <td> Взнос на телеграммы: </td>    
+                                <td> <span class="red-line"> 100 руб. </span> 21 руб. 16 коп. </td> 
+                            </tr>
+                        </table> 
+                    <span class="note-content-2"> По всем вопросам обращаться в администрацию к К. Михельсону </span>                
                 </div>
             </div>
-            <img class="image-content-1 image-slide-right" src="./img/body/content-1/chess-players.png" alt="Chess players">
-        </div>
-        
-        <div class="content-2">
-            <div class="image-content-2 image-slide-left">
-                <img class="image-1-content-2" src="./img/body/content-2/chess-player.png" alt="Chess player">
-            </div>
-            <div class="content-content-2">
-                <div class="header-content-2">
-                    <span class="merriweather-regular"> и Сеанс </span>
-                    <span class="red-text merriweather-bold"> одновременной игры в шахматы на 160 досках </span>
-                    <span class="merriweather-regular"> гроссмейстера О. Бендера </span>
-                </div>
-                    <table class="table">
-                        <tr>
-                            <td class="golos-text-little"> Место проведения: </td>
-                            <td class="golos-text-little-bold"> Клуб «Картонажник» </td>
-                        </tr>
-                        <tr>
-                            <td class="golos-text-little"> Дата и время мероприятия: </td>
-                            <td class="golos-text-little-bold"> 22 июня 1927 г. в 18:00 </td>
-                        </tr>
-                        <tr>
-                            <td class="golos-text-little"> Стоимость входных билетов: </td>
-                            <td class="golos-text-little-bold"> 20 коп. </td> 
-                        </tr>
-                        <tr>
-                            <td class="golos-text-little"> Плата за игру: </td>
-                            <td class="golos-text-little-bold"> 50 коп. </td>
-                        </tr>
-                        <tr>
-                            <td class="golos-text-little"> Взнос на телеграммы: </td>    
-                            <td class="golos-text-little-bold"> <span class="red-line"> 100 руб. </span> 21 руб. 16 коп. </td> 
-                        </tr>
-                    </table> 
-                <span class="note-content-2 golos-text-little"> По всем вопросам обращаться в администрацию к К. Михельсону </span>                
-            </div>
-        </div>
-        <div class="roughness-content-2"></div>
-        
-        <div class="content-3 golos-text-normal" id="content-3">
-            <span class="header-content-3 merriweather-regular"> Этапы преображения Васюков </span>
-            <span class="subtitle-content-3 golos-text-little"> Будущие источники обогащения васюкинцев </span>
-            <div class="stages">
-                <div class="carousel-content-3">
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 1 </div>
-                        <span> Строительство железнодорожной магистрали Москва-Васюки </span>
+            <div class="roughness-content-2"></div>
+            <div class="content-3" id="content-3">
+                <span class="header-content-3 merriweather-regular"> Этапы преображения <br> Васюков </span>
+                <span class="subtitle-content-3"> Будущие источники <br> обогащения васюкинцев </span>
+                <div class="stages">
+                    <div class="carousel-content-3">
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 1 </div>
+                            <span> Строительство железнодорожной магистрали Москва-Васюки </span>
+                        </div>
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 2 </div>
+                            <span> Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов </span>
+                        </div>
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 3 </div>
+                            <span> Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
+                                шоколадных конфет </span>
+                        </div>
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 4 </div>
+                            <span> Строительство дворца для турнира </span>
+                        </div>
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 5 </div>
+                            <span> Размещение гаражей для гостевого автотранспорта </span>
+                        </div>
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 6 </div>
+                            <span> Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов </span>
+                        </div>
+                        <div class="contents-3">
+                            <div class="background-contents-3"></div>
+                            <div class="roughness-contents-3"></div>
+                            <div class="numbers-content-3"> 7 </div>
+                            <span> Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн </span>
+                        </div>
                     </div>
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 2 </div>
-                        <span> Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов </span>
+                    <div class="background-stages"></div>
+                    <div class="roughness-stages"></div>
+                </div>
+                <!-- <img class="image-content-3 image-animate" src="./img/body/content-3/plane.png"  alt="Plane"> -->
+                <div class="buttons-content-3">
+                    <button class="prev-button-content-3" id="prev-content-3" aria-label="Previous">
+                    </button>
+                    <div class="counter-content-3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 3 </div>
-                        <span> Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
-                            шоколадных конфет </span>
-                    </div>
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 4 </div>
-                        <span> Строительство дворца для турнира </span>
-                    </div>
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 5 </div>
-                        <span> Размещение гаражей для гостевого автотранспорта </span>
-                    </div>
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 6 </div>
-                        <span> Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов </span>
-                    </div>
-                    <div class="contents-3">
-                        <div class="background-contents-3"></div>
-                        <div class="roughness-contents-3"></div>
-                        <div class="numbers-content-3 golos-text-little-bold"> 7 </div>
-                        <span> Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн </span>
-                    </div>
-                </div>
-                <div class="background-stages"></div>
-                <div class="roughness-stages"></div>
-            </div>
-            <img class="image-content-3 image-animate" src="./img/body/content-3/plane.png" alt="Plane">
-            <div class="buttons-content-3">
-                <button class="prev-button-content-3" id="prev-content-3" aria-label="Previous">
-                </button>
-                <div class="counter-content-3">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <button class="next-button-content-3" id="next-content-3" aria-label="Next">
-                </button>
-            </div>
-        </div>
-        
-        <div class="content-4">
-            <span class="header-content-4 merriweather-regular"> Участники турнира </span>
-            <div class="buttons-content-4 golos-text-little">
-                <button class="prev-button" id="prev" aria-label="Previous"></button>
-                <div class="counter"> 1/6 </div>
-                <button class="next-button" id="next" aria-label="Next"></button>
-            </div>
-            <div class="carousel-participants">
-                <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Хозе-Рауль Капабланка </span>
-                    <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                    <a class="more-detailed-practicant golos-text-normal" href="#">
-                        <span> Подробнее </span>
-                    </a>
-                </div>
-                <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Эммануил Ласкер </span>
-                    <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                    <a class="more-detailed-practicant golos-text-normal" href="#">
-                        <span> Подробнее </span>
-                    </a>
-                </div>
-                <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Александр Алехин </span>
-                    <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                    <a class="more-detailed-practicant golos-text-normal" href="#">
-                        <span> Подробнее </span>
-                    </a>
-                </div>
-                <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Арон Нимцович </span>
-                    <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                    <a class="more-detailed-practicant golos-text-normal" href="#">
-                        <span> Подробнее </span>
-                    </a>
-                </div>
-                <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Рихард Рети </span>
-                    <span class="achievements-participants golos-text-little"> Чемпион мира по шахматам </span>
-                    <a class="more-detailed-practicant golos-text-normal" href="#">
-                        <span> Подробнее </span>
-                    </a>
-                </div>
-                <div class="participants">
-                    <img class="avatar" src="./img/body/content-4/avatar.png" alt="Avatar">
-                    <span class="names-participants golos-text-little-bold"> Остап Бендер </span>
-                    <span class="achievements-participants golos-text-little"> Гроссмейстер </span>
-                    <a class="more-detailed-practicant golos-text-normal" href="#">
-                        <span> Подробнее </span>
-                    </a>
+                    <button class="next-button-content-3" id="next-content-3" aria-label="Next">
+                    </button>
                 </div>
             </div>
         </div>
+
 
     </main>
 
-    <div class="running-line-wrapper-lower">
-        <div class="running-line-lower lower-line merriweather-regular">
+    <div class="running-line-wrapper-lower merriweather-regular">
+        <div class="running-line-lower lower-line">
             <span> Дело помощи утопающим — дело рук самих утопающих! </span>
             <span class="point"></span>
             <span> Шахматы двигают вперёд не только культуру, но и экономику! </span>
@@ -255,7 +201,7 @@
             <span> Лёд тронулся, господа присяжные заседатели! </span>
             <span class="point"></span>
         </div>
-        <div class="running-line-lower lower-line merriweather-regular">
+        <div class="running-line-lower lower-line">
             <span> Дело помощи утопающим — дело рук самих утопающих! </span>
             <span class="point"></span>
             <span> Шахматы двигают вперёд не только культуру, но и экономику! </span>
@@ -265,7 +211,7 @@
         </div>
     </div>
     
-    <footer class="footer golos-text-normal background">
+    <footer class="footer background">
     
         <span> Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями
             можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев». </span>
