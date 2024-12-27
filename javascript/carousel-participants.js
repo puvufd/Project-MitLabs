@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let autoSlideInterval;
 
     function updateCarousel() {
-        if (window.innerWidth <= 1284.36) {
+        if (window.innerWidth <= 876) {
             itemsPerView = 1;
         } else {
             itemsPerView = 3;
