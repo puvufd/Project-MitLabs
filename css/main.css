@@ -84,17 +84,22 @@ header, main, footer {
     /* Header */
 
 
-.logo {
+.header {
     position: relative;
+    margin: 26px 0 129px 18.178%; 
+    max-width: 542px;
+}
+
+.logo {
     display: flex;
     align-items: center;
-    margin: 26px 0 0 18.178%;
-    max-width: 245.12px;
+    width: 45.237%;
     font-weight: 700;
+    margin-bottom: 62px;
 }
 
 .logo-img {
-    width: 37.45%;
+    width: 37.454%;
     margin-right: 10px;
 }
 
@@ -138,10 +143,6 @@ header, main, footer {
 }
 
 .content {
-    position: relative;
-    margin: 62px 0 129px 18.178%;
-    max-width: 542px;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -151,7 +152,7 @@ header, main, footer {
     margin-bottom: 20px;
 }
 
-.headline-span-1, .headline-span-2, .headline-span-3 {
+.headline span {
     text-transform: uppercase;
     word-wrap: break-word;
     display: block;
@@ -159,7 +160,7 @@ header, main, footer {
     line-height: 1.1;
 }
 
-.headline-span-2, .headline-span-3 {
+.headline span:nth-child(2), .headline span:nth-child(3) {
     text-align: right;
 }
 
