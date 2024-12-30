@@ -484,6 +484,7 @@ main {
 .carousel-contents-3 div:last-child {
     position: relative;
     margin-left: 52px;
+    max-width: 83.296%;
 }
 
 .contents-3:nth-child(7) .carousel-contents-3 div:last-child {
@@ -507,8 +508,8 @@ main {
 .contents-3 span {
     position: relative;
     font-size: 1.25rem;
-    line-height: 24px;
     word-wrap: break-word;
+    line-height: 1.2;
 }
 
 .image-content-3 {
@@ -619,6 +620,7 @@ main {
 .participants {
     flex: 0 0 auto;
     display: none; 
+    text-align: center;
 }
 
 .participants.active {
@@ -645,7 +647,6 @@ main {
 .names-participants {
     font-size: 1.5rem;
     line-height: 24.8px;
-    text-align: center;
     display: block;
     margin-top: 20px;
     font-weight: 600;
@@ -654,7 +655,6 @@ main {
 .achievements-participants {
     font-size: 1.125rem;
     line-height: 22px;
-    text-align: center;
     opacity: 0.60;
     display: block;
     margin-top: 10px;
@@ -662,19 +662,15 @@ main {
 }
 
 .more-detailed-practicant {
-    text-align: center;
-    display: flex;
+    display: inline-flex;
     padding: 12px;
     border-radius: 62px;
     border: 1px solid #3057A2;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 17px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 17px auto 0 auto;
     text-decoration: none;
-    width: 113px;
 }
 
 .more-detailed-practicant span {
@@ -1058,7 +1054,7 @@ main {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        margin: 548px 0 0 6px;
+        margin: 520px 0 0 6px;
     }
 
     .carousel-participants {
