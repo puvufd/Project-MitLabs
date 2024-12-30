@@ -103,7 +103,7 @@ header, main, footer {
     margin: 2.31px 10px 0 0;
 }
 
-.logo-span {
+.logo span {
     font-size: 1rem;
     line-height: 1.08;
     text-transform: uppercase;
@@ -112,7 +112,7 @@ header, main, footer {
     white-space: pre-line;
 }
 
-.logo-span::after {
+.logo span::after {
     content: "четырех коней";
     display: block;
 }
@@ -120,7 +120,7 @@ header, main, footer {
 .head-img {
     position: absolute;
     width: 100%;
-    height: 125.86%;
+    height: 853.5px;
     top: -134px;
     overflow: hidden;
 }
@@ -250,10 +250,6 @@ header, main, footer {
     animation: slide 20s linear infinite;
 }
 
-.upper-line {
-    top: 0;
-}
-
 .running-line:nth-child(2) {
     margin-left: 2334.91px;
 }
@@ -306,6 +302,7 @@ main {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    margin-bottom: 44px;
 }
 
 .header-content-1 {
@@ -320,7 +317,7 @@ main {
 .content-2 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 44px;
+    margin-bottom: 147px;
 }
 
 .content-content-2 {
@@ -404,6 +401,7 @@ main {
     max-width: 38.654%;
     max-height: 856px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .image-1-content-2 {
@@ -428,7 +426,7 @@ main {
 .content-3 {
     position: relative;
     max-width: 1222px;
-    margin: 147px auto;
+    margin-bottom: 147px;
     display: flex;
     flex-direction: column;
 }
@@ -741,14 +739,13 @@ main {
     /* Footer */
 
     
-footer {
-    padding: 2.508% 0 4.491% 0;
+.footer {
+    padding: 2.508% 0 4.491% 18.18%;
 }
 
 .footer span {
     display: flex;
     max-width: 76.615%;
-    margin-left: 18.18%;
     opacity: 0.6;
     font-size: 1rem;
     line-height: 1.2rem;
@@ -840,7 +837,7 @@ footer {
 
 @media (max-width: 1366px) {
 
-    .header, .footer span {
+    .header, .footer {
         margin-left: 5.27%;
     }
 
@@ -872,6 +869,10 @@ footer {
         flex-direction: column;
     }
 
+    .content-1 {
+        margin-bottom: 132px;
+    }
+
     .header-content-1 {
         max-width: 100%;
     }
@@ -886,7 +887,7 @@ footer {
     }
 
     .content-2 {
-        margin-top: 132px;
+        margin-bottom: 92px;
     }
 
     .image-content-2 {
@@ -928,7 +929,7 @@ footer {
     }
 
     .content-3 {
-        margin: 92px auto 100px auto;
+        margin: 0 auto 100px auto;
     }
 
     .header-content-3 {
@@ -1162,10 +1163,14 @@ footer {
         margin: 2px 5.5px 0 0;
     }
 
-    .logo-span {
+    .logo span {
         font-size: 0.9011rem;
         line-height: 1.08;
         width: 60.094%;
+    }
+
+    .content {
+        margin-bottom: 241px;
     }
 
     .headline {
@@ -1220,6 +1225,10 @@ footer {
         max-width: 100%;
     }
 
+    .head-img {
+        top: -76px;
+    }
+
     .running-line-wrapper, .running-line-wrapper-lower {
         height: 38px;
         display: flex;
@@ -1238,19 +1247,7 @@ footer {
     }
 
     .footer {
-        padding: 7.143% 0 10.715% 0;
-    }
-
-    .footer span {
-        margin: 0 3.572%;
-    }
-
-}
-
-@media (max-width: 508px) {
-
-    .image-content-3 {
-        margin-top: 209.968px;
+        padding: 7.143% auto 10.715% auto;
     }
 
 }
@@ -1266,8 +1263,8 @@ footer {
         margin-top: 293.547px;
     }
 
-    .content-2 {
-        margin-top: 156px;
+    .content-1 {
+        margin-bottom: 156px;
     }
 
     .image-content-2 {
@@ -1286,8 +1283,8 @@ footer {
         margin-top: 279.59px;
     }
 
-    .content-2 {
-        margin-top: 180px;
+    .content-1 {
+        margin-bottom: 180px;
     }
 
 }
@@ -1309,12 +1306,8 @@ footer {
         top: 359px;
     }
 
-    .content {
-        margin-bottom: 241px;
-    }
-
-    .content-2 {
-        margin-top: 204px;
+    .content-1 {
+        margin-bottom: 204px;
     }
 
 }
